@@ -1,24 +1,43 @@
 <template>
   <div>
     <div>
-      <a href="#" @click="this.$router.back()">{{ "Back" }}</a>
+      <a href="#" @click="$router.back()">{{ "Back" }}</a>
       <p>{{ $route.params.name }}</p>
     </div>
-    <div>
-      The radio
+    <div class="embed-responsive embed-responsive-16by9">
+      <iframe
+        class="embed-responsive-item"
+        :src="randomRadio.link2"
+        allowfullscreen
+      ></iframe>
     </div>
     <button>Next random radio station</button>
     <div>
-      <p>Name: Chocolate FM</p>
-      <p>Tags: HD, CHR, pop, latino reggaeton, latin pop, dance, trap</p>
+      <p>Name: {{ randomRadio.name }}</p>
+      <p>Tags: {{ randomRadio.tags }}</p>
     </div>
-    {{ radioStations }}
   </div>
 </template>
 
 <script>
+import RadioStationsData from "@/ui/assets/radioStationsData.json";
+
 export default {
-  name: "CategoryDetail"
+  name: "CategoryDetail",
+  data() {
+    return {
+      radioStationsData: RadioStationsData
+    };
+  },
+  computed: {
+    randomRadio() {
+      return this.radioStationsData[1];
+    }
+  },
+  mounted() {
+    var audio = new Audio(this.randomRadio.link2); // path to file
+    audio.play();
+  }
 };
 </script>
 

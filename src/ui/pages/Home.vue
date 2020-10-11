@@ -15,19 +15,12 @@
 </template>
 
 <script>
-import { RadioStationsLocal } from "@/application/services/radioStations-local";
-
 import CategoryList from "@/ui/components/CategoryList.vue";
 
 export default {
   name: "Main",
   components: {
     CategoryList
-  },
-  computed: {
-    radioStations() {
-      return RadioStationsLocal.loadRadioStations();
-    }
   }
 };
 </script>
