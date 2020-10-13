@@ -17,11 +17,11 @@ const routes = [
       import(/* webpackChunkName: "about" */ "@/ui/pages/About.vue")
   },
   {
-    path: "/category/:name",
-    name: "CategoryDetail",
+    path: "/category/:name/:radioStationId",
+    name: "RadioStation",
     component: () =>
       import(
-        /* webpackChunkName: "categorydetail" */ "@/ui/pages/CategoryDetail.vue"
+        /* webpackChunkName: "radiostation" */ "@/ui/pages/RadioStation.vue"
       )
   },
   {

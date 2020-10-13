@@ -1,7 +1,10 @@
 <template>
   <li>
     <router-link
-      :to="{ name: 'CategoryDetail', params: { name: category.name } }"
+      :to="{
+        name: 'RadioStation',
+        params: { name: category.name, radioStationId: 1 }
+      }"
     >
       {{ category.name }}
     </router-link>
