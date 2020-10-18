@@ -4,12 +4,12 @@
       <a href="#" @click="goBack()">{{ "Back" }}</a>
       <p>{{ $route.params.name }}</p>
     </div>
-    <div class="embed-responsive embed-responsive-16by9">
+    <div>
       <audio
+        id="radio"
         tabindex="0"
         controls
-        :src="randomRadio.link2"
-        id="radio"
+        :src="currentRadioStation.link2"
         class="hidden"
         preload="none"
       ></audio>
@@ -24,8 +24,8 @@
       Next radio!
     </router-link>
     <div>
-      <p>Name: {{ randomRadio.name }}</p>
-      <p>Tags: {{ randomRadio.tags }}</p>
+      <p>Name: {{ currentRadioStation.name }}</p>
+      <p>Tags: {{ currentRadioStation.tags }}</p>
     </div>
   </div>
 </template>
@@ -37,13 +37,14 @@ export default {
   name: "RadioStation",
   data() {
     return {
-      radioStationsData: RadioStationsData
+      radioStationsData: RadioStationsData,
+      currentRadioStation: {}
     };
   },
-  computed: {
-    randomRadio() {
-      return this.radioStationsData[this.getRadioStationIdParam()];
-    }
+  created() {
+    this.currentRadioStation = this.radioStationsData[
+      this.getRadioStationIdParam()
+    ];
   },
   mounted() {
     var player = document.getElementById("radio");
@@ -68,7 +69,7 @@ export default {
       return this.$route.params.radioStationId;
     },
     getRadioSrc() {
-      return this.randomRadio.link1 | this.randomRadio.link2;
+      return this.currentRadioStation.link1 | this.currentRadioStation.link2;
     }
   }
 };
