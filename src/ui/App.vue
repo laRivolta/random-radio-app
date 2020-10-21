@@ -1,18 +1,20 @@
 <template>
   <v-app>
-    <v-app-bar app color="primary" dark>
-      <div class="d-flex align-center">
-        &#60;RandomRadio/&#62;
-      </div>
-      <div id="nav">
-        <router-link to="/">Home</router-link> ||
-        <router-link to="/about">About</router-link>
-      </div>
-    </v-app-bar>
+    <Header />
 
-    <v-main>
-      <router-view />
+    <v-main class="grey lighten-3">
+      <v-container>
+        <v-row>
+          <v-col>
+            <v-sheet min-height="70vh" rounded="lg">
+              <router-view />
+            </v-sheet>
+          </v-col>
+        </v-row>
+      </v-container>
     </v-main>
+
+    <Footer />
   </v-app>
 </template>
 
@@ -29,12 +31,21 @@
   padding: 30px;
 }
 
-#nav a {
+.link {
+  color: white !important;
+  text-decoration: none;
   font-weight: bold;
-  color: #2c3e50;
-}
-
-#nav a.router-link-exact-active {
-  color: #42b983;
 }
 </style>
+
+<script>
+import Header from "@/ui/components/_layout/Header.vue";
+import Footer from "@/ui/components/_layout/Footer.vue";
+
+export default {
+  components: {
+    Header,
+    Footer
+  }
+};
+</script>

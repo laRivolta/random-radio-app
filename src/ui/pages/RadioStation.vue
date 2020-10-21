@@ -1,32 +1,36 @@
 <template>
   <div>
-    <div>
-      <a href="#" @click="goBack()">{{ "Back" }}</a>
-      <p>{{ $route.params.name }}</p>
-    </div>
-    <div>
-      <audio
-        id="radio"
-        tabindex="0"
-        controls
-        :src="currentRadioStation.link2"
-        class="hidden"
-        preload="none"
-      ></audio>
-    </div>
-    <router-link
-      :to="
-        `/category/${getNameParam()}/${nextRadioStation(
-          getRadioStationIdParam()
-        )}`
-      "
-    >
-      Next radio!
-    </router-link>
-    <div>
-      <p>Name: {{ currentRadioStation.name }}</p>
-      <p>Tags: {{ currentRadioStation.tags }}</p>
-    </div>
+    <v-card>
+      <v-responsive :aspect-ratio="16 / 9">
+        <div>
+          <a href="#" @click="goBack()">{{ "Back" }}</a>
+          <p>{{ $route.params.name }}</p>
+        </div>
+        <div>
+          <audio
+            id="radio"
+            tabindex="0"
+            controls
+            :src="currentRadioStation.link2"
+            class="hidden"
+            preload="none"
+          ></audio>
+        </div>
+        <router-link
+          :to="
+            `/category/${getNameParam()}/${nextRadioStation(
+              getRadioStationIdParam()
+            )}`
+          "
+        >
+          Next radio!
+        </router-link>
+        <div>
+          <p>Name: {{ currentRadioStation.name }}</p>
+          <p>Tags: {{ currentRadioStation.tags }}</p>
+        </div>
+      </v-responsive>
+    </v-card>
   </div>
 </template>
 
