@@ -1,55 +1,115 @@
 <template>
   <div>
     <div>
-      <v-btn class="mx-2" fab dark small color="purple" @click="goBack()">
+    <v-toolbar color="amber" flat dense>
+      <v-btn   
+        color="grey" 
+        icon
+        @click="goBack()">
         <v-icon dark>
           mdi-arrow-left
         </v-icon>
       </v-btn>
-      Atrás
-      <p>
-        Estás en el mood <b>{{ $route.params.name }}</b> escuchando
-        <b> {{ currentRadioStation.name || "" }}</b>
-      </p>
+      
+      <v-spacer></v-spacer>
+
+      <category-list />
+      </v-toolbar>
     </div>
-    <div>
-      <audio id="radio" tabindex="0" controls class="hidden" preload="none">
-        <source :src="generateRadioLink" />
-      </audio>
-      <p>
-        ⚠️ Algunas radios pueden tardar hasta 5 segundos en empezar a sonar ⚠️
-      </p>
-    </div>
+
+      <v-container
+      >
+        <v-row
+          align="center"
+          no-gutters
+          justify-start
+        >
+          <v-col 
+            :cols="8"
+          >
+            <audio id="radio" tabindex="0" controls class="hidden" preload="none">
+              <source :src="generateRadioLink" />
+            </audio>
+          </v-col>
+                    
+          <v-col
+            :cols="4"
+          >
+          
+            <v-btn
+              :to="nextRadioStation()"
+              :loading="loading5"
+              :disabled="loading5"
+              color="purple"
+              class=" white--text"
+              @click="loader = 'loading5'"
+              x-large
+            >
+              
+              <v-icon dark>
+                mdi-cached
+              </v-icon>
+              ¡Otra!
+            </v-btn>
+        </v-col>
+      </v-row>
+      <v-row
+        align="center"
+      >
+        <v-col cols="12">
+          <p
+          >
+            Ten paciencia, algunas radios pueden tardar hasta 5 segundos en empezar a sonar :)
+          </p>
+        </v-col>
+        <v-col cols="1">
+          <v-card></v-card>
+        </v-col>
+      </v-row>
+    </v-container>
+
+
     <div>
       <v-container>
+
+            <p>
+              Estás escuchando
+              <b> {{ currentRadioStation.name || "" }}</b>
+              con las siguientes etiquetas
+            </p>
+ 
+
         <v-row>
           <v-col v-for="tag in tags" :key="tag" cols="4" sm="s">
-            <v-card class="font-weight-bold">
+            <v-btn 
+              class="font-weight-bold"
+              icon
+              disabled
+              color="purple">
               {{ tag }}
-            </v-card>
+            </v-btn>
           </v-col>
         </v-row>
       </v-container>
     </div>
-    Siguiente radio!
-    <v-btn :to="nextRadioStation()" class="mx-2" fab dark small color="purple">
-      <v-icon dark>
-        mdi-arrow-right
-      </v-icon>
-    </v-btn>
   </div>
 </template>
 
 <script>
 import RadioStationsData from "@/ui/assets/radioStationsData.json";
+import CategoryList from "@/ui/components/CategoryList.vue";
 
 export default {
   name: "RadioStation",
+  components: {
+    CategoryList
+  },
   data() {
     return {
       radioStationsData: RadioStationsData,
       currentRadioStation: {},
-      tags: []
+      tags: [],
+      dialog: false
     };
   },
   created() {
