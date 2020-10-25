@@ -1,0 +1,51 @@
+{
+    "Hoja1": [
+        {
+            "stationuuid": "8cb4d1a5-523d-11ea-be63-52543be04c81",
+            "family": "Relax",
+            "name": "Catalunya Música (CatMúsica)",
+            "tags": "classical",
+            "link1": "https://shoutcast.ccma.cat/ccma/catalunyamusicaHD.mp3",
+            "homepage": "https://www.ccma.cat/catradio/catalunya-musica/",
+            "favicon": "https://statics.ccma.cat/img/favicons/catmusica-favicon-160x160.png",
+            "language": "catalan"
+        },
+        {
+            "stationuuid": "9246fd56-007b-4da5-8b79-8d0adf8deeb3",
+            "family": "Relax",
+            "name": "Clásica FM Radio",
+            "tags": "classical",
+            "link1": "http://edge.mixlr.com/channel/asnfw",
+            "homepage": "http://clasicafmradio.es/",
+            "language": "español"
+        },
+        {
+            "stationuuid": "62d61425-9f84-11ea-aabb-52543be04c81",
+            "family": "Relax",
+            "name": "Radio Clásica (Radio Nacional de España)",
+            "tags": "classical",
+            "link1": "http://radioclasica.rtveradio.cires21.com/radioclasica/mp3/icecast.audio",
+            "homepage": "https://www.rtve.es/radio/radioclasica/",
+            "language": "español"
+        },
+        {
+            "stationuuid": "dbb4f78a-59b3-11ea-be63-52543be04c81",
+            "family": "Relax",
+            "name": "Radio Nature",
+            "tags": "sounds of nature,meditation,relax,ambient",
+            "link1": "http://streamingv2.shoutcast.com/RadioNature",
+            "homepage": "https://radionature.weebly.com/",
+            "favicon": "https://radionature.weebly.com/uploads/7/4/0/7/74072033/editor/logoradionature.jpg?1501763180"
+        },
+        {
+            "stationuuid": "964f1066-0601-11e8-ae97-52543be04c81",
+            "family": "Relax",
+            "name": "Splash Radio - 1000 HITS Classical Music",
+            "tags": "classical",
+            "link1": "http://streamingv2.shoutcast.com/1000HITSClassicalMusic",
+            "homepage": "http://splashradio.es/",
+            "favicon": "https://i3.radionomy.com/radios/400/c8fcd024-7e46-4b27-86fc-40ad3e0450e4.jpg",
+            "language": "español"
+        }
+    ]
+}
