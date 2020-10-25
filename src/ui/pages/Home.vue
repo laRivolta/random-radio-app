@@ -2,7 +2,7 @@
   <v-container fluid>
     <v-sheet color="grey lighten-4" class="pa-4">
       <span class="title">¡Has llegado a Random Radio!</span>
-      <v-dialog v-model="dialog" width="500">
+      <v-dialog v-model="whatsThisDialog" width="500">
         <template v-slot:activator="{ on, attrs }">
           <v-btn color="red lighten-2" text v-bind="attrs" v-on="on">
             ¿Qué es esto?
@@ -24,7 +24,7 @@
 
           <v-card-actions>
             <v-spacer></v-spacer>
-            <v-btn color="primary" text @click="dialog = false">
+            <v-btn color="primary" text @click="whatsThisDialog = false">
               Entendido!
             </v-btn>
           </v-card-actions>
@@ -56,7 +56,7 @@ export default {
   },
   data() {
     return {
-      dialog: false
+      whatsThisDialog: false
     };
   }
 };
