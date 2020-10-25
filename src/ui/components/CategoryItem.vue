@@ -1,14 +1,13 @@
 <template>
-  <li>
-    <router-link
+  <v-btn   
+        color="ambar" 
       :to="{
         name: 'RadioStation',
         params: { name: category.name, radioStationId: 1 }
       }"
     >
       {{ category.name }}
-    </router-link>
-  </li>
+  </v-btn>
 </template>
 
 <script>
