@@ -36,7 +36,7 @@
         alt="random radio"
         height="300"
         width="400"
-        src="../assets/main_radio.jpg"
+        src="../assets/img/main_radio.jpg"
       />
     </v-sheet>
     <v-sheet color="grey lighten-4" class="pa-4">
