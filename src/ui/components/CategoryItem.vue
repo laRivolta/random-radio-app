@@ -1,12 +1,12 @@
 <template>
-  <v-btn   
-        color="ambar" 
-      :to="{
-        name: 'RadioStation',
-        params: { name: category.name, radioStationId: 1 }
-      }"
-    >
-      {{ category.name }}
+  <v-btn
+    color="ambar"
+    :to="{
+      name: 'RadioStation',
+      params: { name: category.name, radioStationId: 1 }
+    }"
+  >
+    {{ category.name }}
   </v-btn>
 </template>
 

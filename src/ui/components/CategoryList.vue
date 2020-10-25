@@ -1,14 +1,13 @@
 <template>
-  
   <div class="category-list">
-    <category-item class="mx-2"
+    <category-item
+      class="mx-2"
       v-for="item in categories"
       :category="item"
       :key="item.id"
     >
-    <v-spacer></v-spacer>
+      <v-spacer></v-spacer>
     </category-item>
-      
   </div>
 </template>
 

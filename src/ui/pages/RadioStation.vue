@@ -1,65 +1,49 @@
 <template>
   <div>
     <div>
-    <v-toolbar color="amber" flat dense>
-      <v-btn   
-        color="grey" 
-        icon
-        @click="goBack()">
-        <v-icon dark>
-          mdi-arrow-left
-        </v-icon>
-      </v-btn>
-      
-      <v-spacer></v-spacer>
+      <v-toolbar color="amber" flat dense>
+        <v-btn color="grey" icon @click="goBack()">
+          <v-icon dark>
+            mdi-arrow-left
+          </v-icon>
+        </v-btn>
 
-      <category-list />
+        <v-spacer></v-spacer>
+
+        <category-list />
       </v-toolbar>
     </div>
 
-      <v-container
-      >
-        <v-row
-          align="center"
-          no-gutters
-          justify-start
-        >
-          <v-col 
-            :cols="8"
+    <v-container>
+      <v-row align="center" no-gutters justify-start>
+        <v-col :cols="8">
+          <audio id="radio" tabindex="0" controls class="hidden" preload="none">
+            <source :src="generateRadioLink" />
+          </audio>
+        </v-col>
+
+        <v-col :cols="4">
+          <v-btn
+            :to="nextRadioStation()"
+            :loading="loading5"
+            :disabled="loading5"
+            color="purple"
+            class=" white--text"
+            @click="loader = 'loading5'"
+            x-large
           >
-            <audio id="radio" tabindex="0" controls class="hidden" preload="none">
-              <source :src="generateRadioLink" />
-            </audio>
-          </v-col>
-                    
-          <v-col
-            :cols="4"
-          >
-          
-            <v-btn
-              :to="nextRadioStation()"
-              :loading="loading5"
-              :disabled="loading5"
-              color="purple"
-              class=" white--text"
-              @click="loader = 'loading5'"
-              x-large
-            >
-              
-              <v-icon dark>
-                mdi-cached
-              </v-icon>
-              ¡Otra!
-            </v-btn>
+            <v-icon dark>
+              mdi-cached
+            </v-icon>
+            ¡Otra!
+          </v-btn>
         </v-col>
       </v-row>
-      <v-row
-        align="center"
-      >
+      <v-row align="center">
         <v-col cols="12">
-          <p
-          >
-            Ten paciencia, algunas radios pueden tardar hasta 5 segundos en empezar a sonar :)
+          <p>
+            Ten paciencia, algunas radios pueden tardar hasta 5 segundos en
+            empezar a sonar :)
           </p>
         </v-col>
         <v-col cols="1">
@@ -68,24 +52,17 @@
       </v-row>
     </v-container>
 
-
     <div>
       <v-container>
-
-            <p>
-              Estás escuchando
-              <b> {{ currentRadioStation.name || "" }}</b>
-              con las siguientes etiquetas
-            </p>
- 
+        <p>
+          Estás escuchando
+          <b> {{ currentRadioStation.name || "" }}</b>
+          con las siguientes etiquetas
+        </p>
 
         <v-row>
           <v-col v-for="tag in tags" :key="tag" cols="4" sm="s">
-            <v-btn 
-              class="font-weight-bold"
-              icon
-              disabled
-              color="purple">
+            <v-btn class="font-weight-bold" icon disabled color="purple">
               {{ tag }}
             </v-btn>
           </v-col>
