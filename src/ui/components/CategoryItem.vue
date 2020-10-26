@@ -3,7 +3,7 @@
     color="ambar"
     :to="{
       name: 'RadioStation',
-      params: { name: category.path, radioStationId: 1 }
+      params: { category: category.slug, radioStationId: 1 }
     }"
   >
     {{ category.name }}

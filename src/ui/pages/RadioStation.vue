@@ -25,11 +25,8 @@
         <v-col :cols="4">
           <v-btn
             :to="nextRadioStation()"
-            :loading="loading5"
-            :disabled="loading5"
             color="purple"
-            class=" white--text"
-            @click="loader = 'loading5'"
+            class="white--text"
             x-large
           >
             <v-icon dark>
@@ -73,7 +70,8 @@
 </template>
 
 <script>
-import RadioStationsData from "@/ui/assets/radioStationsData.json";
+import RadioStationsDataJson from "@/ui/assets/resources/radioStationsData.json";
+import { mapState } from "vuex";
 import CategoryList from "@/ui/components/CategoryList.vue";
 
 export default {
@@ -83,46 +81,31 @@ export default {
   },
   data() {
     return {
-      radioStationsData: RadioStationsData,
+      baseUrl: process.env.BASE_URL,
+      radioStationsData: {},
       currentRadioStation: {},
-      tags: [],
-      dialog: false
+      tags: []
     };
   },
   created() {
-    this.currentRadioStation = this.radioStationsData[
-      this.getRadioStationIdParam()
-    ];
-    this.tags = this.splitTags();
+    this.init();
   },
   computed: {
+    ...mapState(["categories"]),
     generateRadioLink() {
       return this.currentRadioStation.link1;
     }
   },
   mounted() {
-    var player = document.getElementById("radio");
-    console.log(player.src);
-    player.play();
-    player.focus();
+    this.playRadio();
   },
   methods: {
-    goBack() {
-      var player = document.getElementById("radio");
-      player.pause();
-      player.currentTime = 0;
-      player.src = "";
-      this.$router.push("/");
-    },
-    getRadioStationIdParam() {
-      return this.$route.params.radioStationId;
-    },
-    nextRadioStation() {
-      let nextIndex = parseInt(this.getRadioStationIdParam()) + 1;
-      return `/category/${this.$route.params.name}/${nextIndex}`;
-    },
-    getRadioSrc() {
-      return this.currentRadioStation.link1 | this.currentRadioStation.link2;
+    async init() {
+      this.radioStationsData = RadioStationsDataJson;
+      this.currentRadioStation = this.radioStationsData[
+        this.getRadioStationIdParam()
+      ];
+      this.tags = this.splitTags();
     },
     splitTags() {
       let tags;
@@ -130,6 +113,28 @@ export default {
         tags = this.currentRadioStation.tags.split(",");
       }
       return tags;
+    },
+    nextRadioStation() {
+      let nextIndex = parseInt(this.getRadioStationIdParam()) + 1;
+      return `/category/${this.getCategoryParam()}/${nextIndex}`;
+    },
+    playRadio() {
+      var player = document.getElementById("radio");
+      player.play();
+      player.focus();
+    },
+    getRadioStationIdParam() {
+      return this.$route.params.radioStationId;
+    },
+    getCategoryParam() {
+      return this.$route.params.category;
+    },
+    goBack() {
+      var player = document.getElementById("radio");
+      player.pause();
+      player.currentTime = 0;
+      player.src = "";
+      this.$router.push("/");
     }
   }
 };

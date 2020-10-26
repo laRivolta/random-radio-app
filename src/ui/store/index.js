@@ -6,11 +6,11 @@ Vue.use(Vuex);
 export default new Vuex.Store({
   state: {
     categories: [
-      { id: 0, name: "Electronica", path: "electronica", src: "" },
-      { id: 1, name: "Hits", path: "hits", src: "" },
-      { id: 2, name: "Past decades", path: "past_decades", src: "" },
-      { id: 3, name: "Rock & friends", path: "rock&friends", src: "" },
-      { id: 4, name: "Relax", path: "relax", src: "" },
+      { id: 0, name: "Electronica", slug: "electronica" },
+      { id: 1, name: "Hits", slug: "hits" },
+      { id: 2, name: "Past decades", slug: "past_decades" },
+      { id: 3, name: "Rock & friends", slug: "rock&friends" },
+      { id: 4, name: "Relax", slug: "relax" }
     ]
   },
   mutations: {},
