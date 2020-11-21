@@ -1,145 +1,143 @@
-{
-    "Hoja1": [
-        {
-            "stationuuid": "f6650d3a-ea9a-434d-b200-ff5744e1062d",
-            "family": "Hits",
-            "name": "7 Fm",
-            "tags": "pop,rock,reggaeton",
-            "link1": "http://7fm.jrsoftware.es/7fm.mp3",
-            "homepage": "https://www.7fm.es/",
-            "favicon": "https://le-cdn.website-editor.net/fdd09b1142af4761892b67a7438cc86e/dms3rep/multi/opt/1596500292982-320w.png",
-            "language": "español"
-        },
-        {
-            "stationuuid": "f2f65c0d-bf64-11e8-aaf2-52543be04c81",
-            "family": "Hits",
-            "name": "88.2 FM CONTROL MUSIC EUROPA",
-            "tags": "music,latino,reggae,reggaeton",
-            "link1": "http://node-14.zeno.fm/41p4wfy92mruv?rj-ttl=5&rj-tok=AAABdDfBBOgAQseUrjI2UKGQZg",
-            "homepage": "http://www.882fmcontrolmusic.com",
-            "favicon": "http://www.882fmcontrolmusic.com/wp-content/uploads/2017/09/gris1-5.jpg",
-            "language": "español"
-        },
-        {
-            "stationuuid": "960c37c6-0601-11e8-ae97-52543be04c81",
-            "family": "Hits",
-            "name": "Cadena 100",
-            "tags": "music,adult contemporary",
-            "link1": "http://cadena100-streamers-mp3.flumotion.com/cope/cadena100.mp3",
-            "homepage": "http://www.cadena100.es",
-            "favicon": "https://d1v6pqrrmmnutj.cloudfront.net/post_square_images/attachments/000/000/821/original/cadena100.png?2015",
-            "language": "español"
-        },
-        {
-            "stationuuid": "cbf28517-2c06-11e8-91bf-52543be04c81",
-            "family": "Hits",
-            "name": "China FM 97.4",
-            "tags": "pop",
-            "link1": "http://ns3.mycloud-apps.es:8000/stream",
-            "homepage": "http://www.chinafm.es/",
-            "favicon": "http://www.chinafm.es/img/chinaFm.png",
-            "language": "mandarin"
-        },
-        {
-            "stationuuid": "fb9542a8-777a-4873-8f4c-cd5c9ee65a15",
-            "family": "Hits",
-            "name": "City Pop Radio",
-            "tags": "international,latino,pop",
-            "link1": "http://streamingv2.shoutcast.com/CITY-POP-RADIO",
-            "homepage": "http://www.citypopradio.es/index2.html",
-            "language": "español,ingles"
-        },
-        {
-            "stationuuid": "9c12df66-4245-11e9-aa55-52543be04c81",
-            "family": "Hits",
-            "name": "Esencia Radio",
-            "tags": "pop",
-            "link1": "http://stream.zenolive.com/qaxnuxap0rquv",
-            "link2": "http://node-25.zeno.fm/qaxnuxap0rquv?rj-ttl=5&rj-tok=AAABdDkggzgAix1DiXWq7rPq-A",
-            "homepage": "http://www.esenciaradio.com/",
-            "favicon": "https://www.esenciaradio.com/wp-content/uploads/2016/08/cropped-LOGO-ESENCIA-2015-300x300.png",
-            "language": "español"
-        },
-        {
-            "stationuuid": "de3477e3-ab8f-11e8-aa67-52543be04c81",
-            "family": "Hits",
-            "name": "Europa FM",
-            "tags": "hits,top 40",
-            "link1": "http://stream.irratia.net/2b",
-            "homepage": "https://www.europafm.com/",
-            "favicon": "https://static.europafm.com/img/plantilla_png_grande.png",
-            "language": "español"
-        },
-        {
-            "stationuuid": "96154e06-0601-11e8-ae97-52543be04c81",
-            "family": "Hits",
-            "name": "Loca Latino",
-            "tags": "reggaeton,latino",
-            "link1": "http://5.39.66.128:8012/live",
-            "homepage": "http://www.locafm.com",
-            "favicon": "http://www.locafm.com//assets/img/favicon/apple-icon-57x57.png",
-            "language": "español"
-        },
-        {
-            "stationuuid": "bf198f10-ae28-439f-b573-e04621c07e11",
-            "family": "Hits",
-            "name": "LOS 40",
-            "tags": "top 40",
-            "link1": "http://playerservices.streamtheworld.com/api/livestream-redirect/LOS40.mp3",
-            "link2": "http://19993.live.streamtheworld.com:80/LOS40.mp3",
-            "homepage": "https://d3kle7qwymxpcy.cloudfront.net/images/broadcasts/4c/ce/10732/1/c175.png",
-            "favicon": "https://d3kle7qwymxpcy.cloudfront.net/images/broadcasts/4c/ce/10732/1/c175.png",
-            "language": "español"
-        },
-        {
-            "stationuuid": "388151aa-98d2-11e9-a605-52543be04c81",
-            "family": "Hits",
-            "name": "Matryoshka.FM (Матрёшка)",
-            "tags": "international,pop",
-            "link1": "http://213.159.214.57:8000/matryoshkaspain",
-            "homepage": "http://matryoshka.fm",
-            "favicon": "http://matryoshka.fm/Pic/00000.png",
-            "language": "russian"
-        },
-        {
-            "stationuuid": "962e0e57-0601-11e8-ae97-52543be04c81",
-            "family": "Hits",
-            "name": "MegaStarFM",
-            "tags": "top 40,pop",
-            "link1": "http://flucast-b04-01.flumotion.com/cope/megastar.mp3",
-            "homepage": "http://www.megastar.fm/",
-            "favicon": "http://files.megastar.fm/static/img/logoShare.jpg",
-            "language": "español"
-        },
-        {
-            "stationuuid": "96123746-0601-11e8-ae97-52543be04c81",
-            "family": "Hits",
-            "name": "Mix-Radio",
-            "tags": "dance,various,decades,hits",
-            "link1": "http://radionetz.de:8000/mixfm.mp3",
-            "homepage": "http://www.mix-radio.net",
-            "favicon": "http://www.mix-radio.net/s/misc/favicon.ico",
-            "language": "german"
-        },
-        {
-            "stationuuid": "b199af1f-b50a-4d93-9f6a-c3fbfbd435c5",
-            "family": "Hits",
-            "name": "MuyBuena",
-            "tags": "latino",
-            "link1": "https://stream.mediasector.es/radio/8010/muybuena.mp3",
-            "homepage": "https://www.emisorasmusicales.net/emisoras/muybuena/",
-            "favicon": "https://www.emisorasmusicales.net/favicon.ico",
-            "language": "español"
-        },
-        {
-            "stationuuid": "963cfce6-0601-11e8-ae97-52543be04c81",
-            "family": "Hits",
-            "name": "Revoltosa FM",
-            "tags": "latin pop,reggaeton",
-            "link1": "http://5.135.183.124:9283/stream?type=.mp3",
-            "homepage": "http://revoltosafm.com/",
-            "favicon": "http://revoltosafm.com/FG/inicio.png",
-            "language": "español"
-        }
-    ]
-}
+[
+    {
+        "stationuuid": "f6650d3a-ea9a-434d-b200-ff5744e1062d",
+        "family": "Hits",
+        "name": "7 Fm",
+        "tags": "pop,rock,reggaeton",
+        "link1": "http://7fm.jrsoftware.es/7fm.mp3",
+        "homepage": "https://www.7fm.es/",
+        "favicon": "https://le-cdn.website-editor.net/fdd09b1142af4761892b67a7438cc86e/dms3rep/multi/opt/1596500292982-320w.png",
+        "language": "español"
+    },
+    {
+        "stationuuid": "f2f65c0d-bf64-11e8-aaf2-52543be04c81",
+        "family": "Hits",
+        "name": "88.2 FM CONTROL MUSIC EUROPA",
+        "tags": "music,latino,reggae,reggaeton",
+        "link1": "http://node-14.zeno.fm/41p4wfy92mruv?rj-ttl=5&rj-tok=AAABdDfBBOgAQseUrjI2UKGQZg",
+        "homepage": "http://www.882fmcontrolmusic.com",
+        "favicon": "http://www.882fmcontrolmusic.com/wp-content/uploads/2017/09/gris1-5.jpg",
+        "language": "español"
+    },
+    {
+        "stationuuid": "960c37c6-0601-11e8-ae97-52543be04c81",
+        "family": "Hits",
+        "name": "Cadena 100",
+        "tags": "music,adult contemporary",
+        "link1": "http://cadena100-streamers-mp3.flumotion.com/cope/cadena100.mp3",
+        "homepage": "http://www.cadena100.es",
+        "favicon": "https://d1v6pqrrmmnutj.cloudfront.net/post_square_images/attachments/000/000/821/original/cadena100.png?2015",
+        "language": "español"
+    },
+    {
+        "stationuuid": "cbf28517-2c06-11e8-91bf-52543be04c81",
+        "family": "Hits",
+        "name": "China FM 97.4",
+        "tags": "pop",
+        "link1": "http://ns3.mycloud-apps.es:8000/stream",
+        "homepage": "http://www.chinafm.es/",
+        "favicon": "http://www.chinafm.es/img/chinaFm.png",
+        "language": "mandarin"
+    },
+    {
+        "stationuuid": "fb9542a8-777a-4873-8f4c-cd5c9ee65a15",
+        "family": "Hits",
+        "name": "City Pop Radio",
+        "tags": "international,latino,pop",
+        "link1": "http://streamingv2.shoutcast.com/CITY-POP-RADIO",
+        "homepage": "http://www.citypopradio.es/index2.html",
+        "language": "español,ingles"
+    },
+    {
+        "stationuuid": "9c12df66-4245-11e9-aa55-52543be04c81",
+        "family": "Hits",
+        "name": "Esencia Radio",
+        "tags": "pop",
+        "link1": "http://stream.zenolive.com/qaxnuxap0rquv",
+        "link2": "http://node-25.zeno.fm/qaxnuxap0rquv?rj-ttl=5&rj-tok=AAABdDkggzgAix1DiXWq7rPq-A",
+        "homepage": "http://www.esenciaradio.com/",
+        "favicon": "https://www.esenciaradio.com/wp-content/uploads/2016/08/cropped-LOGO-ESENCIA-2015-300x300.png",
+        "language": "español"
+    },
+    {
+        "stationuuid": "de3477e3-ab8f-11e8-aa67-52543be04c81",
+        "family": "Hits",
+        "name": "Europa FM",
+        "tags": "hits,top 40",
+        "link1": "http://stream.irratia.net/2b",
+        "homepage": "https://www.europafm.com/",
+        "favicon": "https://static.europafm.com/img/plantilla_png_grande.png",
+        "language": "español"
+    },
+    {
+        "stationuuid": "96154e06-0601-11e8-ae97-52543be04c81",
+        "family": "Hits",
+        "name": "Loca Latino",
+        "tags": "reggaeton,latino",
+        "link1": "http://5.39.66.128:8012/live",
+        "homepage": "http://www.locafm.com",
+        "favicon": "http://www.locafm.com//assets/img/favicon/apple-icon-57x57.png",
+        "language": "español"
+    },
+    {
+        "stationuuid": "bf198f10-ae28-439f-b573-e04621c07e11",
+        "family": "Hits",
+        "name": "LOS 40",
+        "tags": "top 40",
+        "link1": "http://playerservices.streamtheworld.com/api/livestream-redirect/LOS40.mp3",
+        "link2": "http://19993.live.streamtheworld.com:80/LOS40.mp3",
+        "homepage": "https://d3kle7qwymxpcy.cloudfront.net/images/broadcasts/4c/ce/10732/1/c175.png",
+        "favicon": "https://d3kle7qwymxpcy.cloudfront.net/images/broadcasts/4c/ce/10732/1/c175.png",
+        "language": "español"
+    },
+    {
+        "stationuuid": "388151aa-98d2-11e9-a605-52543be04c81",
+        "family": "Hits",
+        "name": "Matryoshka.FM (Матрёшка)",
+        "tags": "international,pop",
+        "link1": "http://213.159.214.57:8000/matryoshkaspain",
+        "homepage": "http://matryoshka.fm",
+        "favicon": "http://matryoshka.fm/Pic/00000.png",
+        "language": "russian"
+    },
+    {
+        "stationuuid": "962e0e57-0601-11e8-ae97-52543be04c81",
+        "family": "Hits",
+        "name": "MegaStarFM",
+        "tags": "top 40,pop",
+        "link1": "http://flucast-b04-01.flumotion.com/cope/megastar.mp3",
+        "homepage": "http://www.megastar.fm/",
+        "favicon": "http://files.megastar.fm/static/img/logoShare.jpg",
+        "language": "español"
+    },
+    {
+        "stationuuid": "96123746-0601-11e8-ae97-52543be04c81",
+        "family": "Hits",
+        "name": "Mix-Radio",
+        "tags": "dance,various,decades,hits",
+        "link1": "http://radionetz.de:8000/mixfm.mp3",
+        "homepage": "http://www.mix-radio.net",
+        "favicon": "http://www.mix-radio.net/s/misc/favicon.ico",
+        "language": "german"
+    },
+    {
+        "stationuuid": "b199af1f-b50a-4d93-9f6a-c3fbfbd435c5",
+        "family": "Hits",
+        "name": "MuyBuena",
+        "tags": "latino",
+        "link1": "https://stream.mediasector.es/radio/8010/muybuena.mp3",
+        "homepage": "https://www.emisorasmusicales.net/emisoras/muybuena/",
+        "favicon": "https://www.emisorasmusicales.net/favicon.ico",
+        "language": "español"
+    },
+    {
+        "stationuuid": "963cfce6-0601-11e8-ae97-52543be04c81",
+        "family": "Hits",
+        "name": "Revoltosa FM",
+        "tags": "latin pop,reggaeton",
+        "link1": "http://5.135.183.124:9283/stream?type=.mp3",
+        "homepage": "http://revoltosafm.com/",
+        "favicon": "http://revoltosafm.com/FG/inicio.png",
+        "language": "español"
+    }
+]

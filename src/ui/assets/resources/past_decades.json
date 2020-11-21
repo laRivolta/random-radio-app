@@ -1,191 +1,189 @@
-{
-    "Hoja1": [
-        {
-            "stationuuid": "73e2ad07-cd68-11e9-8502-52543be04c81",
-            "family": "Past decades",
-            "name": "1 Slow-Radio - laut.fm",
-            "tags": "romantic,60s,70s,80s,90s,easy listening,oldies,hits,slow",
-            "link1": "https://1slowradio.stream.laut.fm/1_slowradio",
-            "homepage": "https://laut.fm/1_slowradio",
-            "favicon": "https://assets.laut.fm/9670c7c141ede546101df1cdfe18e0b4?t=_120x120",
-            "language": "ingles"
-        },
-        {
-            "stationuuid": "1fdc8bd2-a8a9-11e8-a907-52543be04c81",
-            "family": "Past decades",
-            "name": "1000 HITS 80s",
-            "tags": "90s,70s,italo,italo dance,italo disco,oldies,80s",
-            "link1": "http://c2.auracast.net:8048/stream",
-            "homepage": "http://www.1000hits80s.eu",
-            "favicon": "https://1000hits80s.eu/wp-content/uploads/2017/10/cropped-1000Hits80s_300x300-270x270.jpg",
-            "language": "ingles"
-        },
-        {
-            "stationuuid": "62647fb6-f66d-11e8-a471-52543be04c81",
-            "family": "Past decades",
-            "name": "80 Exitos",
-            "tags": "pop,disco,dance,romantic,90s,80s,70s",
-            "link1": "http://streaming.radionomy.com/80-EXITS",
-            "homepage": "https://www.facebook.com/80EXITOS",
-            "favicon": "https://scontent.fmad7-1.fna.fbcdn.net/v/t1.0-1/p200x200/12311243_926307454089203_8197400575018247906_n.png?_nc_cat=104&_nc_ht=scontent.fmad7-1.fna&oh=ed5af6be0083a2b9051f9d445b56f9c6&oe=5CA4FDB7",
-            "language": "español"
-        },
-        {
-            "stationuuid": "30f60777-0c4e-11e8-ae97-52543be04c81",
-            "family": "Past decades",
-            "name": "80 EXITS",
-            "tags": "oldies,golden oldies,adult hits,disco,romantic,90s,80s,70s",
-            "link1": "http://listen.radionomy.com/80-exits",
-            "homepage": "http://80musica.com/",
-            "favicon": "http://80musica.com/wp-content/uploads/2016/01/cropped-80-512-192x192.jpg",
-            "language": "español"
-        },
-        {
-            "stationuuid": "6292c9dd-69fb-4db2-9850-0619ae309ecc",
-            "family": "Past decades",
-            "name": "AMB2FM",
-            "tags": "oldies,hits",
-            "link1": "http://stream.zeno.fm/yv0h81xunwzuv",
-            "link2": "http://node-30.zeno.fm/yv0h81xunwzuv?rj-ttl=5&rj-tok=AAABdDrRXU0AkuVZ8Pfz47FHAg",
-            "homepage": "https://amb2fm.cat/",
-            "language": "catalan"
-        },
-        {
-            "stationuuid": "2f9e7388-df16-4509-b089-7ffe567174c6",
-            "family": "Past decades",
-            "name": "Antena 2000",
-            "tags": "70s,romantic,disco,90s,80s",
-            "link1": "https://eu1.fastcast4u.com/proxy/antena2000?mp=/1",
-            "homepage": "https://www.antena2000.org/",
-            "favicon": "https://cdn.onlineradiobox.com/img/logo/7/89137.v3.png",
-            "language": "español"
-        },
-        {
-            "stationuuid": "9b6a48fb-e65a-4acb-a27f-46ea4bffbfe7",
-            "family": "Past decades",
-            "name": "City 80 Radio",
-            "tags": "80s,pop",
-            "link1": "http://streamingv2.shoutcast.com/City-80-Radio",
-            "homepage": "http://www.citypopradio.es/index2.html",
-            "language": "español,ingles"
-        },
-        {
-            "stationuuid": "9618e3b0-0601-11e8-ae97-52543be04c81",
-            "family": "Past decades",
-            "name": "Kiss FM",
-            "tags": "80s,90s,music,romantic",
-            "link1": "http://kissfm.kissfmradio.cires21.com/kissfm.mp3",
-            "homepage": "http://www.kissfm.es/",
-            "favicon": "http://kissfm.es/player/img/logokiss.png",
-            "language": "español"
-        },
-        {
-            "stationuuid": "59a45c07-97e7-11e8-a767-52543be04c81",
-            "family": "Past decades",
-            "name": "M80",
-            "tags": "80s,70s,90s,00s",
-            "link1": "http://mcrscast.mcr.iol.pt/m80",
-            "homepage": "http://www.m80radio.com/",
-            "favicon": "https://www.google.es/url?sa=i&rct=j&q=&esrc=s&source=images&cd=&cad=rja&uact=8&ved=2ahUKEwijgaHJu9PcAhVRUxoKHZ3pCtUQjRx6BAgBEAU&url=http%3A%2F%2Fwww.emicantero.com%2Fdj%2F&psig=AOvVaw3o4bM2YhIrr8ik7svSe0zG&ust=1533474434034608",
-            "language": "español"
-        },
-        {
-            "stationuuid": "e3ea6c86-9909-44e8-af6e-336f25cdf859",
-            "family": "Past decades",
-            "name": "Melodía FM",
-            "tags": "70s,80s,90s",
-            "link1": "http://icecast-streaming.nice264.com/melodiafmback",
-            "homepage": "http://www.melodia-fm.com/",
-            "favicon": "http://www.melodia-fm.com/static/imgs/onda_melodia_logo.jpg",
-            "language": "español"
-        },
-        {
-            "stationuuid": "96368a4d-0601-11e8-ae97-52543be04c81",
-            "family": "Past decades",
-            "name": "Spektra FM Valencia",
-            "tags": "80s,90s",
-            "link1": "http://stm1.emiteonline.com:8008/spektrafm",
-            "homepage": "https://www.spektrafm.es/",
-            "favicon": "https://s3.amazonaws.com/cdn.emisoras.com/upload/radio_logo/20/3_1342035043_SPEKTRA-LOGO.jpg",
-            "language": "español"
-        },
-        {
-            "stationuuid": "964f0d6f-0601-11e8-ae97-52543be04c81",
-            "family": "Past decades",
-            "name": "Splash Radio - 1 Hits 50s",
-            "tags": "50s",
-            "link1": "http://streamingv2.shoutcast.com/1HITS50s",
-            "homepage": "http://splashradio.es/",
-            "favicon": "https://i3.radionomy.com/radios/400/1ea652c8-3861-4903-8068-3f40bd355254.jpg",
-            "language": "español"
-        },
-        {
-            "stationuuid": "962d7e82-0601-11e8-ae97-52543be04c81",
-            "family": "Past decades",
-            "name": "Splash Radio - 1 Hits 70s",
-            "tags": "70s",
-            "link1": "http://streamingv2.shoutcast.com/1HITS70s",
-            "homepage": "http://splashradio.es/",
-            "favicon": "https://i3.radionomy.com/radios/400/91cad0d3-649b-40ea-be1c-5ff6b341e187.jpg",
-            "language": "español"
-        },
-        {
-            "stationuuid": "96374d29-0601-11e8-ae97-52543be04c81",
-            "family": "Past decades",
-            "name": "Splash Radio - 1 Hits 80s",
-            "tags": "80s",
-            "link1": "http://streamingv2.shoutcast.com/1HITS80s",
-            "homepage": "http://splashradio.es/",
-            "favicon": "https://i3.radionomy.com/radios/400/cf0801cb-5de7-4037-be65-55b69842029f.jpg",
-            "language": "español"
-        },
-        {
-            "stationuuid": "964f0c06-0601-11e8-ae97-52543be04c81",
-            "family": "Past decades",
-            "name": "Splash Radio - 1 Hits 90s",
-            "tags": "90s",
-            "link1": "http://streamingv2.shoutcast.com/1HITS90s",
-            "homepage": "http://splashradio.es/",
-            "favicon": "https://i3.radionomy.com/radios/400/9a44d265-bd11-453c-a1be-1221b3faa6bb.jpg",
-            "language": "español"
-        },
-        {
-            "stationuuid": "964f148e-0601-11e8-ae97-52543be04c81",
-            "family": "Past decades",
-            "name": "Splash Radio - 1000 HITS Sweet Radio",
-            "tags": "oldies,50s,60s,70s,80s,90s,00s",
-            "link1": "http://streamingv2.shoutcast.com/1000-HITS-Sweet-Radio",
-            "homepage": "http://splashradio.es/",
-            "favicon": "https://i3.radionomy.com/radios/400/8f0a2e89-42a8-48bf-a629-1665c501b2bb.jpg",
-            "language": "español"
-        },
-        {
-            "stationuuid": "964f1890-0601-11e8-ae97-52543be04c81",
-            "family": "Past decades",
-            "name": "Splash Radio - 1000 Oldies",
-            "tags": "oldies",
-            "link1": "http://streamingv2.shoutcast.com/1000Oldies",
-            "homepage": "http://splashradio.es/",
-            "favicon": "https://i3.radionomy.com/radios/400/29b9457b-ba68-4f21-89b0-0ee470d42677.jpg",
-            "language": "español"
-        },
-        {
-            "stationuuid": "2b779ed6-8ecc-4731-8f67-7e6a89cb923e",
-            "family": "Past decades",
-            "name": "T-Sound Music",
-            "tags": "decades",
-            "link1": "http://stream.zeno.fm/avthwp8shnruv",
-            "link2": "http://node-21.zeno.fm/avthwp8shnruv?rj-ttl=5&rj-tok=AAABdDqn448AO2-J9EE8-Th-pA"
-        },
-        {
-            "stationuuid": "f149835f-4317-11e8-b74d-52543be04c81",
-            "family": "Past decades",
-            "name": "TKO Radio Costa Blanca",
-            "tags": "hits",
-            "link1": "http://centauri.shoutca.st:8300/stream",
-            "homepage": "http://tko.fm",
-            "favicon": "http://tko.fm/wp-content/uploads/2018/01/TKO-Facebook.jpg",
-            "language": "ingles"
-        }
-    ]
-}
+[
+    {
+        "stationuuid": "73e2ad07-cd68-11e9-8502-52543be04c81",
+        "family": "Past decades",
+        "name": "1 Slow-Radio - laut.fm",
+        "tags": "romantic,60s,70s,80s,90s,easy listening,oldies,hits,slow",
+        "link1": "https://1slowradio.stream.laut.fm/1_slowradio",
+        "homepage": "https://laut.fm/1_slowradio",
+        "favicon": "https://assets.laut.fm/9670c7c141ede546101df1cdfe18e0b4?t=_120x120",
+        "language": "ingles"
+    },
+    {
+        "stationuuid": "1fdc8bd2-a8a9-11e8-a907-52543be04c81",
+        "family": "Past decades",
+        "name": "1000 HITS 80s",
+        "tags": "90s,70s,italo,italo dance,italo disco,oldies,80s",
+        "link1": "http://c2.auracast.net:8048/stream",
+        "homepage": "http://www.1000hits80s.eu",
+        "favicon": "https://1000hits80s.eu/wp-content/uploads/2017/10/cropped-1000Hits80s_300x300-270x270.jpg",
+        "language": "ingles"
+    },
+    {
+        "stationuuid": "62647fb6-f66d-11e8-a471-52543be04c81",
+        "family": "Past decades",
+        "name": "80 Exitos",
+        "tags": "pop,disco,dance,romantic,90s,80s,70s",
+        "link1": "http://streaming.radionomy.com/80-EXITS",
+        "homepage": "https://www.facebook.com/80EXITOS",
+        "favicon": "https://scontent.fmad7-1.fna.fbcdn.net/v/t1.0-1/p200x200/12311243_926307454089203_8197400575018247906_n.png?_nc_cat=104&_nc_ht=scontent.fmad7-1.fna&oh=ed5af6be0083a2b9051f9d445b56f9c6&oe=5CA4FDB7",
+        "language": "español"
+    },
+    {
+        "stationuuid": "30f60777-0c4e-11e8-ae97-52543be04c81",
+        "family": "Past decades",
+        "name": "80 EXITS",
+        "tags": "oldies,golden oldies,adult hits,disco,romantic,90s,80s,70s",
+        "link1": "http://listen.radionomy.com/80-exits",
+        "homepage": "http://80musica.com/",
+        "favicon": "http://80musica.com/wp-content/uploads/2016/01/cropped-80-512-192x192.jpg",
+        "language": "español"
+    },
+    {
+        "stationuuid": "6292c9dd-69fb-4db2-9850-0619ae309ecc",
+        "family": "Past decades",
+        "name": "AMB2FM",
+        "tags": "oldies,hits",
+        "link1": "http://stream.zeno.fm/yv0h81xunwzuv",
+        "link2": "http://node-30.zeno.fm/yv0h81xunwzuv?rj-ttl=5&rj-tok=AAABdDrRXU0AkuVZ8Pfz47FHAg",
+        "homepage": "https://amb2fm.cat/",
+        "language": "catalan"
+    },
+    {
+        "stationuuid": "2f9e7388-df16-4509-b089-7ffe567174c6",
+        "family": "Past decades",
+        "name": "Antena 2000",
+        "tags": "70s,romantic,disco,90s,80s",
+        "link1": "https://eu1.fastcast4u.com/proxy/antena2000?mp=/1",
+        "homepage": "https://www.antena2000.org/",
+        "favicon": "https://cdn.onlineradiobox.com/img/logo/7/89137.v3.png",
+        "language": "español"
+    },
+    {
+        "stationuuid": "9b6a48fb-e65a-4acb-a27f-46ea4bffbfe7",
+        "family": "Past decades",
+        "name": "City 80 Radio",
+        "tags": "80s,pop",
+        "link1": "http://streamingv2.shoutcast.com/City-80-Radio",
+        "homepage": "http://www.citypopradio.es/index2.html",
+        "language": "español,ingles"
+    },
+    {
+        "stationuuid": "9618e3b0-0601-11e8-ae97-52543be04c81",
+        "family": "Past decades",
+        "name": "Kiss FM",
+        "tags": "80s,90s,music,romantic",
+        "link1": "http://kissfm.kissfmradio.cires21.com/kissfm.mp3",
+        "homepage": "http://www.kissfm.es/",
+        "favicon": "http://kissfm.es/player/img/logokiss.png",
+        "language": "español"
+    },
+    {
+        "stationuuid": "59a45c07-97e7-11e8-a767-52543be04c81",
+        "family": "Past decades",
+        "name": "M80",
+        "tags": "80s,70s,90s,00s",
+        "link1": "http://mcrscast.mcr.iol.pt/m80",
+        "homepage": "http://www.m80radio.com/",
+        "favicon": "https://www.google.es/url?sa=i&rct=j&q=&esrc=s&source=images&cd=&cad=rja&uact=8&ved=2ahUKEwijgaHJu9PcAhVRUxoKHZ3pCtUQjRx6BAgBEAU&url=http%3A%2F%2Fwww.emicantero.com%2Fdj%2F&psig=AOvVaw3o4bM2YhIrr8ik7svSe0zG&ust=1533474434034608",
+        "language": "español"
+    },
+    {
+        "stationuuid": "e3ea6c86-9909-44e8-af6e-336f25cdf859",
+        "family": "Past decades",
+        "name": "Melodía FM",
+        "tags": "70s,80s,90s",
+        "link1": "http://icecast-streaming.nice264.com/melodiafmback",
+        "homepage": "http://www.melodia-fm.com/",
+        "favicon": "http://www.melodia-fm.com/static/imgs/onda_melodia_logo.jpg",
+        "language": "español"
+    },
+    {
+        "stationuuid": "96368a4d-0601-11e8-ae97-52543be04c81",
+        "family": "Past decades",
+        "name": "Spektra FM Valencia",
+        "tags": "80s,90s",
+        "link1": "http://stm1.emiteonline.com:8008/spektrafm",
+        "homepage": "https://www.spektrafm.es/",
+        "favicon": "https://s3.amazonaws.com/cdn.emisoras.com/upload/radio_logo/20/3_1342035043_SPEKTRA-LOGO.jpg",
+        "language": "español"
+    },
+    {
+        "stationuuid": "964f0d6f-0601-11e8-ae97-52543be04c81",
+        "family": "Past decades",
+        "name": "Splash Radio - 1 Hits 50s",
+        "tags": "50s",
+        "link1": "http://streamingv2.shoutcast.com/1HITS50s",
+        "homepage": "http://splashradio.es/",
+        "favicon": "https://i3.radionomy.com/radios/400/1ea652c8-3861-4903-8068-3f40bd355254.jpg",
+        "language": "español"
+    },
+    {
+        "stationuuid": "962d7e82-0601-11e8-ae97-52543be04c81",
+        "family": "Past decades",
+        "name": "Splash Radio - 1 Hits 70s",
+        "tags": "70s",
+        "link1": "http://streamingv2.shoutcast.com/1HITS70s",
+        "homepage": "http://splashradio.es/",
+        "favicon": "https://i3.radionomy.com/radios/400/91cad0d3-649b-40ea-be1c-5ff6b341e187.jpg",
+        "language": "español"
+    },
+    {
+        "stationuuid": "96374d29-0601-11e8-ae97-52543be04c81",
+        "family": "Past decades",
+        "name": "Splash Radio - 1 Hits 80s",
+        "tags": "80s",
+        "link1": "http://streamingv2.shoutcast.com/1HITS80s",
+        "homepage": "http://splashradio.es/",
+        "favicon": "https://i3.radionomy.com/radios/400/cf0801cb-5de7-4037-be65-55b69842029f.jpg",
+        "language": "español"
+    },
+    {
+        "stationuuid": "964f0c06-0601-11e8-ae97-52543be04c81",
+        "family": "Past decades",
+        "name": "Splash Radio - 1 Hits 90s",
+        "tags": "90s",
+        "link1": "http://streamingv2.shoutcast.com/1HITS90s",
+        "homepage": "http://splashradio.es/",
+        "favicon": "https://i3.radionomy.com/radios/400/9a44d265-bd11-453c-a1be-1221b3faa6bb.jpg",
+        "language": "español"
+    },
+    {
+        "stationuuid": "964f148e-0601-11e8-ae97-52543be04c81",
+        "family": "Past decades",
+        "name": "Splash Radio - 1000 HITS Sweet Radio",
+        "tags": "oldies,50s,60s,70s,80s,90s,00s",
+        "link1": "http://streamingv2.shoutcast.com/1000-HITS-Sweet-Radio",
+        "homepage": "http://splashradio.es/",
+        "favicon": "https://i3.radionomy.com/radios/400/8f0a2e89-42a8-48bf-a629-1665c501b2bb.jpg",
+        "language": "español"
+    },
+    {
+        "stationuuid": "964f1890-0601-11e8-ae97-52543be04c81",
+        "family": "Past decades",
+        "name": "Splash Radio - 1000 Oldies",
+        "tags": "oldies",
+        "link1": "http://streamingv2.shoutcast.com/1000Oldies",
+        "homepage": "http://splashradio.es/",
+        "favicon": "https://i3.radionomy.com/radios/400/29b9457b-ba68-4f21-89b0-0ee470d42677.jpg",
+        "language": "español"
+    },
+    {
+        "stationuuid": "2b779ed6-8ecc-4731-8f67-7e6a89cb923e",
+        "family": "Past decades",
+        "name": "T-Sound Music",
+        "tags": "decades",
+        "link1": "http://stream.zeno.fm/avthwp8shnruv",
+        "link2": "http://node-21.zeno.fm/avthwp8shnruv?rj-ttl=5&rj-tok=AAABdDqn448AO2-J9EE8-Th-pA"
+    },
+    {
+        "stationuuid": "f149835f-4317-11e8-b74d-52543be04c81",
+        "family": "Past decades",
+        "name": "TKO Radio Costa Blanca",
+        "tags": "hits",
+        "link1": "http://centauri.shoutca.st:8300/stream",
+        "homepage": "http://tko.fm",
+        "favicon": "http://tko.fm/wp-content/uploads/2018/01/TKO-Facebook.jpg",
+        "language": "ingles"
+    }
+]

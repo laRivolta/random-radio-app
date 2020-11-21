@@ -1,493 +1,491 @@
-{
-    "Hoja1": [
-        {
-            "stationuuid": "a0bec8f9-0c4f-11e8-ae97-52543be04c81",
-            "family": "Electronica",
-            "name": "1-DANCE",
-            "tags": "00s,top 100,top 40,hits,electronic,house,dance",
-            "link1": "http://listen.radionomy.com/1-dance",
-            "homepage": "http://fm-radiodance.com/",
-            "favicon": "https://i3.radionomy.com/radios/400/399ec881-d139-4884-b883-5574afaf1448.jpg",
-            "language": "español"
-        },
-        {
-            "stationuuid": "e169e091-6515-4079-b6f6-f8968b44728a",
-            "family": "Electronica",
-            "name": "ABSOLUTE CHILLOUT",
-            "tags": "chillout",
-            "link1": "http://edge2.peta.live365.net/b05055_128mp3",
-            "homepage": "http://www.absolutechillout.com",
-            "favicon": "http://www.absolutechillout.com/favicon.ico",
-            "language": "español,ingles"
-        },
-        {
-            "stationuuid": "6b44b1ae-142c-11e8-ae97-52543be04c81",
-            "family": "Electronica",
-            "name": "Alcoy Electronica Radio",
-            "tags": "80s,90s,electronic",
-            "link1": "http://listen.radionomy.com/alcoyelectronicaradio2018",
-            "homepage": "https://www.radionomy.com/es/radio/alcoyelectronicaradio2018",
-            "favicon": "https://upstream-i3.radionomy.com/radios/400/b6524255-42b0-417a-9f0b-f68a0675f53b.jpg",
-            "language": "español"
-        },
-        {
-            "stationuuid": "96229ffc-0601-11e8-ae97-52543be04c81",
-            "family": "Electronica",
-            "name": "Andamio Music",
-            "tags": "latino,dance,electro,house,techno",
-            "link1": "http://listen.radionomy.com/elandamiodeenfrente",
-            "homepage": "http://elandamio.net",
-            "favicon": "https://elandamio.net/wp-content/uploads/2016/09/cropped-cropped-caad7471-a1c2-4b27-98d7-5f58824c1b31-1-270x270.jpg",
-            "language": "español"
-        },
-        {
-            "stationuuid": "961a518e-0601-11e8-ae97-52543be04c81",
-            "family": "Electronica",
-            "name": "Beach Grooves",
-            "tags": "deep house",
-            "link1": "http://stream.beachgrooves.com:8000/;stream.mp3",
-            "homepage": "http://beachgrooves.com/",
-            "favicon": "http://beachgrooves.com/wp-content/uploads/2016/02/cropped-La1Lb1Tx-192x192.png",
-            "language": "ingles"
-        },
-        {
-            "stationuuid": "961868a6-0601-11e8-ae97-52543be04c81",
-            "family": "Electronica",
-            "name": "Blue Marlin Ibiza Radio",
-            "tags": "house,lounge,dance,chillout",
-            "link1": "http://s3.sonicabroadcast.com:8635/;listen.mp3",
-            "homepage": "http://www.bluemarlinibiza.com/radio/",
-            "favicon": "http://www.bluemarlinibiza.com/wp-content/themes/bluemarlinibiza/favicon64.png",
-            "language": "ingles"
-        },
-        {
-            "stationuuid": "6d129aed-066f-11e9-a3cd-52543be04c81",
-            "family": "Electronica",
-            "name": "Cafe Cody",
-            "tags": "lounge,chillout",
-            "link1": "http://ice31.securenetsystems.net/CAFECODY",
-            "homepage": "http://cafecody.com/",
-            "favicon": "http://cafecody.com/favicon.ico",
-            "language": "ingles"
-        },
-        {
-            "stationuuid": "3fd18c3f-8157-11e9-aa30-52543be04c81",
-            "family": "Electronica",
-            "name": "Café del Mar",
-            "tags": "lounge,chillout,ibiza",
-            "link1": "https://streams.radio.co/se1a320b47/listen",
-            "homepage": "https://cafedelmar.com/radio/",
-            "favicon": "https://cafedelmar.com/wp-content/uploads/2018/01/footer_logo.png"
-        },
-        {
-            "stationuuid": "8076018f-eba0-43bd-b25f-f3fe6b423b38",
-            "family": "Electronica",
-            "name": "Café del Mar HD (unofficial)",
-            "tags": "trance,lounge,ambient,chillout",
-            "link1": "http://stream.zenolive.com/g1s30spcdxquv",
-            "link2": "http://node-07.zeno.fm/1tmd4t6cxbruv?rj-ttl=5&rj-tok=AAABdDqYQJIAJYLKYJR9cLfsow",
-            "homepage": "https://www.radioline.co/listen-to-cafe-del-mar-hd",
-            "favicon": "http://db.radioline.fr/pictures/radio_c9567e0caa226f740509d63d126bf37b/logo200.jpg",
-            "language": "español,ingles"
-        },
-        {
-            "stationuuid": "450a5177-1752-11ea-a620-52543be04c81",
-            "family": "Electronica",
-            "name": "Cafe Mambo Ibiza Radio",
-            "tags": "ibiza,dj sets",
-            "link1": "http://streamer.radio.co/sd7b28e5f3/listen",
-            "homepage": "https://cafemamboibiza.com/radio/",
-            "favicon": "https://cafemamboibiza.com/radio/templates/yootheme/cache/logo-blanco-5311c3c0.png",
-            "language": "ingles"
-        },
-        {
-            "stationuuid": "708ca3e9-3ac9-41fd-a022-159039854116",
-            "family": "Electronica",
-            "name": "Coolmusic Radio - Cool Coffee",
-            "tags": "lounge,chillout,cool",
-            "link1": "http://5.39.86.44:8006/stream-mp3-CoolCoffee",
-            "homepage": "https://www.coolmusicradio.com/",
-            "favicon": "https://static.wixstatic.com/media/cd3c31_9f0dba98f4f34b13b4770a1f7cc1f95f~mv2.png/v1/fill/w_208,h_81,al_c,q_85,usm_0.66_1.00_0.01/logo%20transp_edited.webp",
-            "language": "español"
-        },
-        {
-            "stationuuid": "9610afaf-0601-11e8-ae97-52543be04c81",
-            "family": "Electronica",
-            "name": "Costa del Mar",
-            "tags": "lounge",
-            "link1": "http://sc-costadelmar.1.fm:10152/",
-            "homepage": "http://www.costadelmar-radio.com/",
-            "favicon": "http://www.cdm-radio.com/images/Costa-logo-200.gif",
-            "language": "español"
-        },
-        {
-            "stationuuid": "9f348d9f-5285-11e8-a4d1-52543be04c81",
-            "family": "Electronica",
-            "name": "Costa Del Mar - Chillout (AAC 96kbps)",
-            "tags": "chillout",
-            "link1": "http://stream.cdm-chillout.com:8020/stream-AAC-Chill",
-            "homepage": "http://www.costadelmar-radio.com/chillout/",
-            "favicon": "http://www.costadelmar-radio.com/wp-content/uploads/cache/2016/12/RADIO_CDM-LOGO-CHILLLOUT-600/3944392582.jpg"
-        },
-        {
-            "stationuuid": "c3d1d0f4-8c68-11e8-aa66-52543be04c81",
-            "family": "Electronica",
-            "name": "Fresh Radio",
-            "tags": "latino,reggaeton,urban,electro house,dance",
-            "link1": "http://node-19.zeno.fm/gzaf75yevceuv?rj-ttl=5&rj-tok=AAABdDiL6OoANvCki3obUkqAWQ",
-            "homepage": "http://www.freshradio.es",
-            "favicon": "http://i68.tinypic.com/5b7htz.png",
-            "language": "español"
-        },
-        {
-            "stationuuid": "9610152e-0601-11e8-ae97-52543be04c81",
-            "family": "Electronica",
-            "name": "Hit FM",
-            "tags": "hits,dance,electronic",
-            "link1": "http://hitfm.kissfmradio.cires21.com/hitfm.mp3",
-            "homepage": "http://www.hitfm.es/",
-            "favicon": "http://www.hitfm.es/view/imgs/favicon.ico",
-            "language": "español"
-        },
-        {
-            "stationuuid": "962c87b2-0601-11e8-ae97-52543be04c81",
-            "family": "Electronica",
-            "name": "Hits and Mix Radio",
-            "tags": "trance,90s,80s,70s",
-            "link1": "http://listen.radionomy.com/hitsandmixradio",
-            "homepage": "http://misterka-oficial.blogspot.hu/",
-            "favicon": "https://i3.radionomy.com/radios/400/2427c618-40b9-4c50-9212-aa342424f47a.jpg",
-            "language": "español"
-        },
-        {
-            "stationuuid": "962a9b64-0601-11e8-ae97-52543be04c81",
-            "family": "Electronica",
-            "name": "Holiday Gym FM",
-            "tags": "dance",
-            "link1": "http://holidaygym.emitironline.com",
-            "homepage": "http://holidaygym.es/",
-            "favicon": "https://i2.wp.com/holidaygym.es/wp-content/uploads/2017/06/HOLIDAY-GYM-RADIO-BLANCO.-copia-1.jpg",
-            "language": "español"
-        },
-        {
-            "stationuuid": "7cf7e6fe-27e5-11e9-a80b-52543be04c81",
-            "family": "Electronica",
-            "name": "Ibiza Live Radio",
-            "tags": "ibiza,dj sets,lounge,deep,vocal,tech house,techno",
-            "link1": "https://streams.radio.co/sdc9cfaf77/listen",
-            "homepage": "https://www.ibizaliveradio.com",
-            "favicon": "https://d22jpk5gw3kjl2.cloudfront.net/app2/uploads/2017/04/16050706/cropped-LogoBlackWhite-270x270.png",
-            "language": "ingles"
-        },
-        {
-            "stationuuid": "964a9273-0601-11e8-ae97-52543be04c81",
-            "family": "Electronica",
-            "name": "KMLSound",
-            "tags": "dance,tech house,minimal techno,minimal,techno,progressive house,deep house,house",
-            "link1": "http://kmlsound.com:8000/radio",
-            "homepage": "http://kmlsound.com",
-            "favicon": "http://kmlsound.com///templates/yoo_drive/favicon.ico",
-            "language": "español"
-        },
-        {
-            "stationuuid": "96202d35-0601-11e8-ae97-52543be04c81",
-            "family": "Electronica",
-            "name": "Loca Ambient",
-            "tags": "meditation,relax,instrumental,ambient",
-            "link1": "http://5.39.66.128:8007/live",
-            "homepage": "http://www.locafm.com",
-            "favicon": "http://www.locafm.com//assets/img/favicon/apple-icon-57x57.png",
-            "language": "español"
-        },
-        {
-            "stationuuid": "962026fa-0601-11e8-ae97-52543be04c81",
-            "family": "Electronica",
-            "name": "Loca Big Room",
-            "tags": "electronic",
-            "link1": "http://5.39.66.128:8001/live",
-            "homepage": "http://www.locafm.com",
-            "favicon": "http://www.locafm.com/favicon.ico",
-            "language": "español"
-        },
-        {
-            "stationuuid": "9620630b-0601-11e8-ae97-52543be04c81",
-            "family": "Electronica",
-            "name": "Loca Chill Out",
-            "tags": "electronic,house,dj,chillout",
-            "link1": "http://5.39.66.128:8002/live",
-            "homepage": "http://www.locafm.com",
-            "favicon": "http://www.locafm.com//assets/img/favicon/apple-icon-57x57.png",
-            "language": "español"
-        },
-        {
-            "stationuuid": "96202652-0601-11e8-ae97-52543be04c81",
-            "family": "Electronica",
-            "name": "Loca Dance",
-            "tags": "dance",
-            "link1": "http://5.39.66.128:8004/live",
-            "homepage": "http://www.locafm.com",
-            "favicon": "http://www.locafm.com//assets/img/favicon/apple-icon-57x57.png",
-            "language": "español"
-        },
-        {
-            "stationuuid": "96202851-0601-11e8-ae97-52543be04c81",
-            "family": "Electronica",
-            "name": "Loca Dub Techno",
-            "tags": "dub techno,techno",
-            "link1": "http://audio-online.net:8015/live",
-            "homepage": "http://www.locafm.com",
-            "favicon": "http://www.locafm.com//assets/img/favicon/apple-icon-57x57.png",
-            "language": "español"
-        },
-        {
-            "stationuuid": "9644435d-0601-11e8-ae97-52543be04c81",
-            "family": "Electronica",
-            "name": "Loca FM EDM",
-            "tags": "electro house,edm",
-            "link1": "http://5.39.66.128:8001/live",
-            "homepage": "http://www.locafm.com/",
-            "favicon": "http://www.locafm.com//assets/img/favicon/apple-icon-180x180.png",
-            "language": "español"
-        },
-        {
-            "stationuuid": "96202b10-0601-11e8-ae97-52543be04c81",
-            "family": "Electronica",
-            "name": "Loca Hard",
-            "tags": "breakbeat,hardstyle,hard",
-            "link1": "http://5.39.66.128:8003/live",
-            "homepage": "http://www.locafm.com",
-            "favicon": "http://www.locafm.com//assets/img/favicon/apple-icon-57x57.png",
-            "language": "español"
-        },
-        {
-            "stationuuid": "962029ad-0601-11e8-ae97-52543be04c81",
-            "family": "Electronica",
-            "name": "Loca House",
-            "tags": "deep house,house",
-            "link1": "http://5.39.66.128:8005/live",
-            "homepage": "http://www.locafm.com",
-            "favicon": "http://www.locafm.com//assets/img/favicon/apple-icon-57x57.png",
-            "language": "español"
-        },
-        {
-            "stationuuid": "9614f4fd-0601-11e8-ae97-52543be04c81",
-            "family": "Electronica",
-            "name": "Loca Prog House",
-            "tags": "house",
-            "link1": "http://5.39.66.128:8011/live",
-            "homepage": "http://www.locafm.com",
-            "favicon": "http://www.locafm.com//assets/img/favicon/apple-icon-57x57.png",
-            "language": "español"
-        },
-        {
-            "stationuuid": "96202a5e-0601-11e8-ae97-52543be04c81",
-            "family": "Electronica",
-            "name": "Loca Remember",
-            "tags": "remember,oldies",
-            "link1": "http://5.39.66.128:8006/live",
-            "homepage": "http://www.locafm.com",
-            "favicon": "http://www.locafm.com//assets/img/favicon/apple-icon-57x57.png",
-            "language": "español"
-        },
-        {
-            "stationuuid": "96202c7a-0601-11e8-ae97-52543be04c81",
-            "family": "Electronica",
-            "name": "Loca Sessions",
-            "tags": "dj,remixes,dj sets",
-            "link1": "http://5.39.66.128:8013/live",
-            "homepage": "http://www.locafm.com",
-            "favicon": "http://www.locafm.com//assets/img/favicon/apple-icon-57x57.png",
-            "language": "español"
-        },
-        {
-            "stationuuid": "96202bc3-0601-11e8-ae97-52543be04c81",
-            "family": "Electronica",
-            "name": "Loca Tech House",
-            "tags": "house",
-            "link1": "http://5.39.66.128:8008/live",
-            "homepage": "http://www.locafm.com",
-            "favicon": "http://www.locafm.com//assets/img/favicon/apple-icon-57x57.png",
-            "language": "español"
-        },
-        {
-            "stationuuid": "962027a4-0601-11e8-ae97-52543be04c81",
-            "family": "Electronica",
-            "name": "Loca Techno",
-            "tags": "techno",
-            "link1": "http://5.39.66.128:8009/live",
-            "homepage": "http://www.locafm.com",
-            "favicon": "http://www.locafm.com//assets/img/favicon/apple-icon-57x57.png",
-            "language": "español"
-        },
-        {
-            "stationuuid": "96200cd6-0601-11e8-ae97-52543be04c81",
-            "family": "Electronica",
-            "name": "Loca Trance",
-            "tags": "electronic,trance",
-            "link1": "http://5.39.66.128:8010/live",
-            "homepage": "http://www.locafm.com",
-            "favicon": "http://www.locafm.com//assets/img/favicon/apple-icon-57x57.png",
-            "language": "español"
-        },
-        {
-            "stationuuid": "96202eb7-0601-11e8-ae97-52543be04c81",
-            "family": "Electronica",
-            "name": "Loca Vintage",
-            "tags": "vintage",
-            "link1": "http://5.39.66.128:8000/live",
-            "homepage": "http://www.locafm.com",
-            "favicon": "http://www.locafm.com//assets/img/favicon/apple-icon-57x57.png",
-            "language": "español"
-        },
-        {
-            "stationuuid": "964e8a70-0601-11e8-ae97-52543be04c81",
-            "family": "Electronica",
-            "name": "LocaFM",
-            "tags": "80s,90s,00s,house,dance,electronic,djs",
-            "link1": "http://5.39.66.128:8008/live",
-            "homepage": "http://www.locafm.com/live/player.html?canal=techhouse",
-            "favicon": "http://www.locafm.com/assets/img/meta/generica.jpg",
-            "language": "español"
-        },
-        {
-            "stationuuid": "777d14b2-f344-11e9-a96c-52543be04c81",
-            "family": "Electronica",
-            "name": "Los 40 Dance",
-            "tags": "house,dance,electro,electronic,edm",
-            "link1": "http://playerservices.streamtheworld.com/api/livestream-redirect/LOS40_DANCE_SC",
-            "link2": "http://20723.live.streamtheworld.com:80/LOS40_DANCE_SC",
-            "homepage": "https://los40.com/",
-            "favicon": "https://recursosweb.prisaradio.com/fotos/original/010002753887.png",
-            "language": "español"
-        },
-        {
-            "stationuuid": "a415d46e-f235-11e8-a471-52543be04c81",
-            "family": "Electronica",
-            "name": "MortalFM",
-            "tags": "dance",
-            "link1": "http://server6.20comunicacion.com:8044/;",
-            "homepage": "http://www.mortalfm.es",
-            "favicon": "http://mortalfm.es/img/logoMortalfm.png",
-            "language": "español"
-        },
-        {
-            "stationuuid": "8d76db61-d90f-11e8-a9cc-52543be04c81",
-            "family": "Electronica",
-            "name": "No More No Less",
-            "tags": "ibiza,edm",
-            "link1": "http://s3.sonicabroadcast.com:8750/;.m3u",
-            "homepage": "http://www.ibizasonica.com/",
-            "favicon": "http://static.radio.es/images/broadcasts/c8/96/40909/3/c175.png",
-            "language": "español,ingles"
-        },
-        {
-            "stationuuid": "d218c77d-cffc-11e9-a861-52543be04c81",
-            "family": "Electronica",
-            "name": "OpenLab Radio",
-            "tags": "soul,house,r&b,jazz,techno,hip hop,electronic",
-            "link1": "https://ice04.fluidstream.net/openlab.mp3",
-            "homepage": "https://openlab.fm",
-            "favicon": "https://openlab.fm//apple-touch-icon.png",
-            "language": "ingles"
-        },
-        {
-            "stationuuid": "9611ffbc-0601-11e8-ae97-52543be04c81",
-            "family": "Electronica",
-            "name": "PlayTrance Radio - Main Channel",
-            "tags": "trance",
-            "link1": "https://live-ff.playtrance.com/playtrance-main.mp3",
-            "link2": "https://streaming.playtrance.com/playtrance-main-high",
-            "homepage": "https://www.playtrance.com/",
-            "favicon": "https://www.playtrance.com/static/mainblanco256.png",
-            "language": "español"
-        },
-        {
-            "stationuuid": "6ad5e93f-869d-4165-a685-25e8363c1bf4",
-            "family": "Electronica",
-            "name": "Radio Planeta Costa del Sol",
-            "tags": "dance,pop,r&b,house",
-            "link1": "https://radioplaneta.emitironline.com/radio",
-            "homepage": "https://www.radioplaneta.com/",
-            "favicon": "https://www.radioplaneta.com/resources/images/logo2.png",
-            "language": "español"
-        },
-        {
-            "stationuuid": "d4b92df6-d911-11e8-a9cc-52543be04c81",
-            "family": "Electronica",
-            "name": "Sonica Club",
-            "tags": "ibiza,electronic,house,tech house,djs",
-            "link1": "http://s3.sonicabroadcast.com:8032/;.m3u",
-            "homepage": "http://ibizasonica.com/sonica-club/",
-            "favicon": "https://i3.radionomy.com/radios/400/9ced11c8-1428-4bff-8b63-63e8be4c7f8d.png",
-            "language": "español,ingles"
-        },
-        {
-            "stationuuid": "60de58e2-d911-11e8-a9cc-52543be04c81",
-            "family": "Electronica",
-            "name": "Sonica Futura",
-            "tags": "experimental,avant garde,modern soul",
-            "link1": "http://s3.sonicabroadcast.com:8820/;.m3u",
-            "homepage": "http://ibizasonica.com/sonica-futura/",
-            "favicon": "https://i3.radionomy.com/radios/400/94e1c41a-facf-43bf-8fb8-92eed53f5cf1.png",
-            "language": "español,ingles"
-        },
-        {
-            "stationuuid": "a8445e6c-d910-11e8-a9cc-52543be04c81",
-            "family": "Electronica",
-            "name": "SoniCalm",
-            "tags": "downtempo,ambient,chillout,electronica,ibiza",
-            "link1": "http://s3.sonicabroadcast.com:8915/;.m3u",
-            "homepage": "https://ibizasonica.com/en/channel",
-            "favicon": "https://i3.radionomy.com/radios/400/13b23ea0-96b3-48e3-886a-20150526749f.png",
-            "language": "español,ingles"
-        },
-        {
-            "stationuuid": "964f133a-0601-11e8-ae97-52543be04c81",
-            "family": "Electronica",
-            "name": "Splash Radio - 1 Radio Dance",
-            "tags": "dance",
-            "link1": "http://streamingv2.shoutcast.com/1-Radio-Dance",
-            "homepage": "http://splashradio.es/",
-            "favicon": "https://i3.radionomy.com/radios/400/15e76aee-7d15-41b8-b332-7a78c93d155e.jpg",
-            "language": "español"
-        },
-        {
-            "stationuuid": "964f172d-0601-11e8-ae97-52543be04c81",
-            "family": "Electronica",
-            "name": "Splash Radio - 1 Radio Lounge",
-            "tags": "lounge",
-            "link1": "http://streamingv2.shoutcast.com/1RadioLounge",
-            "homepage": "http://splashradio.es/",
-            "favicon": "https://i3.radionomy.com/radios/400/f174448f-a3fd-49b9-b920-fcfbe2c98c47.jpg",
-            "language": "español"
-        },
-        {
-            "stationuuid": "96314885-0601-11e8-ae97-52543be04c81",
-            "family": "Electronica",
-            "name": "Star People",
-            "tags": "soul,lounge,r&b",
-            "link1": "http://2.139.144.101:8020/2?1508151505",
-            "homepage": "http://www.starpeople.es",
-            "favicon": "http://2.139.144.101/starpeople/logo/SP_500x500.jpg",
-            "language": "ingles"
-        },
-        {
-            "stationuuid": "13319429-6bb7-11ea-b1cf-52543be04c81",
-            "family": "Electronica",
-            "name": "Vicious Radio",
-            "tags": "house,electronic,djs",
-            "link1": "http://radiorobot.es:8000/nacionalweb",
-            "language": "español"
-        },
-        {
-            "stationuuid": "0988429c-d90f-11e8-a9cc-52543be04c81",
-            "family": "Electronica",
-            "name": "Where is the After Party?",
-            "tags": "ibiza,electronic,deep house,lounge",
-            "link1": "http://s3.sonicabroadcast.com:8825/;.m3u",
-            "homepage": "http://ibizasonica.com/radiochannel/where-is-the-after-party/",
-            "favicon": "http://static.radio.es/images/broadcasts/aa/56/100161/1/c175.png",
-            "language": "español,ingles"
-        }
-    ]
-}
+[
+    {
+        "stationuuid": "a0bec8f9-0c4f-11e8-ae97-52543be04c81",
+        "family": "Electronica",
+        "name": "1-DANCE",
+        "tags": "00s,top 100,top 40,hits,electronic,house,dance",
+        "link1": "http://listen.radionomy.com/1-dance",
+        "homepage": "http://fm-radiodance.com/",
+        "favicon": "https://i3.radionomy.com/radios/400/399ec881-d139-4884-b883-5574afaf1448.jpg",
+        "language": "español"
+    },
+    {
+        "stationuuid": "e169e091-6515-4079-b6f6-f8968b44728a",
+        "family": "Electronica",
+        "name": "ABSOLUTE CHILLOUT",
+        "tags": "chillout",
+        "link1": "http://edge2.peta.live365.net/b05055_128mp3",
+        "homepage": "http://www.absolutechillout.com",
+        "favicon": "http://www.absolutechillout.com/favicon.ico",
+        "language": "español,ingles"
+    },
+    {
+        "stationuuid": "6b44b1ae-142c-11e8-ae97-52543be04c81",
+        "family": "Electronica",
+        "name": "Alcoy Electronica Radio",
+        "tags": "80s,90s,electronic",
+        "link1": "http://listen.radionomy.com/alcoyelectronicaradio2018",
+        "homepage": "https://www.radionomy.com/es/radio/alcoyelectronicaradio2018",
+        "favicon": "https://upstream-i3.radionomy.com/radios/400/b6524255-42b0-417a-9f0b-f68a0675f53b.jpg",
+        "language": "español"
+    },
+    {
+        "stationuuid": "96229ffc-0601-11e8-ae97-52543be04c81",
+        "family": "Electronica",
+        "name": "Andamio Music",
+        "tags": "latino,dance,electro,house,techno",
+        "link1": "http://listen.radionomy.com/elandamiodeenfrente",
+        "homepage": "http://elandamio.net",
+        "favicon": "https://elandamio.net/wp-content/uploads/2016/09/cropped-cropped-caad7471-a1c2-4b27-98d7-5f58824c1b31-1-270x270.jpg",
+        "language": "español"
+    },
+    {
+        "stationuuid": "961a518e-0601-11e8-ae97-52543be04c81",
+        "family": "Electronica",
+        "name": "Beach Grooves",
+        "tags": "deep house",
+        "link1": "http://stream.beachgrooves.com:8000/;stream.mp3",
+        "homepage": "http://beachgrooves.com/",
+        "favicon": "http://beachgrooves.com/wp-content/uploads/2016/02/cropped-La1Lb1Tx-192x192.png",
+        "language": "ingles"
+    },
+    {
+        "stationuuid": "961868a6-0601-11e8-ae97-52543be04c81",
+        "family": "Electronica",
+        "name": "Blue Marlin Ibiza Radio",
+        "tags": "house,lounge,dance,chillout",
+        "link1": "http://s3.sonicabroadcast.com:8635/;listen.mp3",
+        "homepage": "http://www.bluemarlinibiza.com/radio/",
+        "favicon": "http://www.bluemarlinibiza.com/wp-content/themes/bluemarlinibiza/favicon64.png",
+        "language": "ingles"
+    },
+    {
+        "stationuuid": "6d129aed-066f-11e9-a3cd-52543be04c81",
+        "family": "Electronica",
+        "name": "Cafe Cody",
+        "tags": "lounge,chillout",
+        "link1": "http://ice31.securenetsystems.net/CAFECODY",
+        "homepage": "http://cafecody.com/",
+        "favicon": "http://cafecody.com/favicon.ico",
+        "language": "ingles"
+    },
+    {
+        "stationuuid": "3fd18c3f-8157-11e9-aa30-52543be04c81",
+        "family": "Electronica",
+        "name": "Café del Mar",
+        "tags": "lounge,chillout,ibiza",
+        "link1": "https://streams.radio.co/se1a320b47/listen",
+        "homepage": "https://cafedelmar.com/radio/",
+        "favicon": "https://cafedelmar.com/wp-content/uploads/2018/01/footer_logo.png"
+    },
+    {
+        "stationuuid": "8076018f-eba0-43bd-b25f-f3fe6b423b38",
+        "family": "Electronica",
+        "name": "Café del Mar HD (unofficial)",
+        "tags": "trance,lounge,ambient,chillout",
+        "link1": "http://stream.zenolive.com/g1s30spcdxquv",
+        "link2": "http://node-07.zeno.fm/1tmd4t6cxbruv?rj-ttl=5&rj-tok=AAABdDqYQJIAJYLKYJR9cLfsow",
+        "homepage": "https://www.radioline.co/listen-to-cafe-del-mar-hd",
+        "favicon": "http://db.radioline.fr/pictures/radio_c9567e0caa226f740509d63d126bf37b/logo200.jpg",
+        "language": "español,ingles"
+    },
+    {
+        "stationuuid": "450a5177-1752-11ea-a620-52543be04c81",
+        "family": "Electronica",
+        "name": "Cafe Mambo Ibiza Radio",
+        "tags": "ibiza,dj sets",
+        "link1": "http://streamer.radio.co/sd7b28e5f3/listen",
+        "homepage": "https://cafemamboibiza.com/radio/",
+        "favicon": "https://cafemamboibiza.com/radio/templates/yootheme/cache/logo-blanco-5311c3c0.png",
+        "language": "ingles"
+    },
+    {
+        "stationuuid": "708ca3e9-3ac9-41fd-a022-159039854116",
+        "family": "Electronica",
+        "name": "Coolmusic Radio - Cool Coffee",
+        "tags": "lounge,chillout,cool",
+        "link1": "http://5.39.86.44:8006/stream-mp3-CoolCoffee",
+        "homepage": "https://www.coolmusicradio.com/",
+        "favicon": "https://static.wixstatic.com/media/cd3c31_9f0dba98f4f34b13b4770a1f7cc1f95f~mv2.png/v1/fill/w_208,h_81,al_c,q_85,usm_0.66_1.00_0.01/logo%20transp_edited.webp",
+        "language": "español"
+    },
+    {
+        "stationuuid": "9610afaf-0601-11e8-ae97-52543be04c81",
+        "family": "Electronica",
+        "name": "Costa del Mar",
+        "tags": "lounge",
+        "link1": "http://sc-costadelmar.1.fm:10152/",
+        "homepage": "http://www.costadelmar-radio.com/",
+        "favicon": "http://www.cdm-radio.com/images/Costa-logo-200.gif",
+        "language": "español"
+    },
+    {
+        "stationuuid": "9f348d9f-5285-11e8-a4d1-52543be04c81",
+        "family": "Electronica",
+        "name": "Costa Del Mar - Chillout (AAC 96kbps)",
+        "tags": "chillout",
+        "link1": "http://stream.cdm-chillout.com:8020/stream-AAC-Chill",
+        "homepage": "http://www.costadelmar-radio.com/chillout/",
+        "favicon": "http://www.costadelmar-radio.com/wp-content/uploads/cache/2016/12/RADIO_CDM-LOGO-CHILLLOUT-600/3944392582.jpg"
+    },
+    {
+        "stationuuid": "c3d1d0f4-8c68-11e8-aa66-52543be04c81",
+        "family": "Electronica",
+        "name": "Fresh Radio",
+        "tags": "latino,reggaeton,urban,electro house,dance",
+        "link1": "http://node-19.zeno.fm/gzaf75yevceuv?rj-ttl=5&rj-tok=AAABdDiL6OoANvCki3obUkqAWQ",
+        "homepage": "http://www.freshradio.es",
+        "favicon": "http://i68.tinypic.com/5b7htz.png",
+        "language": "español"
+    },
+    {
+        "stationuuid": "9610152e-0601-11e8-ae97-52543be04c81",
+        "family": "Electronica",
+        "name": "Hit FM",
+        "tags": "hits,dance,electronic",
+        "link1": "http://hitfm.kissfmradio.cires21.com/hitfm.mp3",
+        "homepage": "http://www.hitfm.es/",
+        "favicon": "http://www.hitfm.es/view/imgs/favicon.ico",
+        "language": "español"
+    },
+    {
+        "stationuuid": "962c87b2-0601-11e8-ae97-52543be04c81",
+        "family": "Electronica",
+        "name": "Hits and Mix Radio",
+        "tags": "trance,90s,80s,70s",
+        "link1": "http://listen.radionomy.com/hitsandmixradio",
+        "homepage": "http://misterka-oficial.blogspot.hu/",
+        "favicon": "https://i3.radionomy.com/radios/400/2427c618-40b9-4c50-9212-aa342424f47a.jpg",
+        "language": "español"
+    },
+    {
+        "stationuuid": "962a9b64-0601-11e8-ae97-52543be04c81",
+        "family": "Electronica",
+        "name": "Holiday Gym FM",
+        "tags": "dance",
+        "link1": "http://holidaygym.emitironline.com",
+        "homepage": "http://holidaygym.es/",
+        "favicon": "https://i2.wp.com/holidaygym.es/wp-content/uploads/2017/06/HOLIDAY-GYM-RADIO-BLANCO.-copia-1.jpg",
+        "language": "español"
+    },
+    {
+        "stationuuid": "7cf7e6fe-27e5-11e9-a80b-52543be04c81",
+        "family": "Electronica",
+        "name": "Ibiza Live Radio",
+        "tags": "ibiza,dj sets,lounge,deep,vocal,tech house,techno",
+        "link1": "https://streams.radio.co/sdc9cfaf77/listen",
+        "homepage": "https://www.ibizaliveradio.com",
+        "favicon": "https://d22jpk5gw3kjl2.cloudfront.net/app2/uploads/2017/04/16050706/cropped-LogoBlackWhite-270x270.png",
+        "language": "ingles"
+    },
+    {
+        "stationuuid": "964a9273-0601-11e8-ae97-52543be04c81",
+        "family": "Electronica",
+        "name": "KMLSound",
+        "tags": "dance,tech house,minimal techno,minimal,techno,progressive house,deep house,house",
+        "link1": "http://kmlsound.com:8000/radio",
+        "homepage": "http://kmlsound.com",
+        "favicon": "http://kmlsound.com///templates/yoo_drive/favicon.ico",
+        "language": "español"
+    },
+    {
+        "stationuuid": "96202d35-0601-11e8-ae97-52543be04c81",
+        "family": "Electronica",
+        "name": "Loca Ambient",
+        "tags": "meditation,relax,instrumental,ambient",
+        "link1": "http://5.39.66.128:8007/live",
+        "homepage": "http://www.locafm.com",
+        "favicon": "http://www.locafm.com//assets/img/favicon/apple-icon-57x57.png",
+        "language": "español"
+    },
+    {
+        "stationuuid": "962026fa-0601-11e8-ae97-52543be04c81",
+        "family": "Electronica",
+        "name": "Loca Big Room",
+        "tags": "electronic",
+        "link1": "http://5.39.66.128:8001/live",
+        "homepage": "http://www.locafm.com",
+        "favicon": "http://www.locafm.com/favicon.ico",
+        "language": "español"
+    },
+    {
+        "stationuuid": "9620630b-0601-11e8-ae97-52543be04c81",
+        "family": "Electronica",
+        "name": "Loca Chill Out",
+        "tags": "electronic,house,dj,chillout",
+        "link1": "http://5.39.66.128:8002/live",
+        "homepage": "http://www.locafm.com",
+        "favicon": "http://www.locafm.com//assets/img/favicon/apple-icon-57x57.png",
+        "language": "español"
+    },
+    {
+        "stationuuid": "96202652-0601-11e8-ae97-52543be04c81",
+        "family": "Electronica",
+        "name": "Loca Dance",
+        "tags": "dance",
+        "link1": "http://5.39.66.128:8004/live",
+        "homepage": "http://www.locafm.com",
+        "favicon": "http://www.locafm.com//assets/img/favicon/apple-icon-57x57.png",
+        "language": "español"
+    },
+    {
+        "stationuuid": "96202851-0601-11e8-ae97-52543be04c81",
+        "family": "Electronica",
+        "name": "Loca Dub Techno",
+        "tags": "dub techno,techno",
+        "link1": "http://audio-online.net:8015/live",
+        "homepage": "http://www.locafm.com",
+        "favicon": "http://www.locafm.com//assets/img/favicon/apple-icon-57x57.png",
+        "language": "español"
+    },
+    {
+        "stationuuid": "9644435d-0601-11e8-ae97-52543be04c81",
+        "family": "Electronica",
+        "name": "Loca FM EDM",
+        "tags": "electro house,edm",
+        "link1": "http://5.39.66.128:8001/live",
+        "homepage": "http://www.locafm.com/",
+        "favicon": "http://www.locafm.com//assets/img/favicon/apple-icon-180x180.png",
+        "language": "español"
+    },
+    {
+        "stationuuid": "96202b10-0601-11e8-ae97-52543be04c81",
+        "family": "Electronica",
+        "name": "Loca Hard",
+        "tags": "breakbeat,hardstyle,hard",
+        "link1": "http://5.39.66.128:8003/live",
+        "homepage": "http://www.locafm.com",
+        "favicon": "http://www.locafm.com//assets/img/favicon/apple-icon-57x57.png",
+        "language": "español"
+    },
+    {
+        "stationuuid": "962029ad-0601-11e8-ae97-52543be04c81",
+        "family": "Electronica",
+        "name": "Loca House",
+        "tags": "deep house,house",
+        "link1": "http://5.39.66.128:8005/live",
+        "homepage": "http://www.locafm.com",
+        "favicon": "http://www.locafm.com//assets/img/favicon/apple-icon-57x57.png",
+        "language": "español"
+    },
+    {
+        "stationuuid": "9614f4fd-0601-11e8-ae97-52543be04c81",
+        "family": "Electronica",
+        "name": "Loca Prog House",
+        "tags": "house",
+        "link1": "http://5.39.66.128:8011/live",
+        "homepage": "http://www.locafm.com",
+        "favicon": "http://www.locafm.com//assets/img/favicon/apple-icon-57x57.png",
+        "language": "español"
+    },
+    {
+        "stationuuid": "96202a5e-0601-11e8-ae97-52543be04c81",
+        "family": "Electronica",
+        "name": "Loca Remember",
+        "tags": "remember,oldies",
+        "link1": "http://5.39.66.128:8006/live",
+        "homepage": "http://www.locafm.com",
+        "favicon": "http://www.locafm.com//assets/img/favicon/apple-icon-57x57.png",
+        "language": "español"
+    },
+    {
+        "stationuuid": "96202c7a-0601-11e8-ae97-52543be04c81",
+        "family": "Electronica",
+        "name": "Loca Sessions",
+        "tags": "dj,remixes,dj sets",
+        "link1": "http://5.39.66.128:8013/live",
+        "homepage": "http://www.locafm.com",
+        "favicon": "http://www.locafm.com//assets/img/favicon/apple-icon-57x57.png",
+        "language": "español"
+    },
+    {
+        "stationuuid": "96202bc3-0601-11e8-ae97-52543be04c81",
+        "family": "Electronica",
+        "name": "Loca Tech House",
+        "tags": "house",
+        "link1": "http://5.39.66.128:8008/live",
+        "homepage": "http://www.locafm.com",
+        "favicon": "http://www.locafm.com//assets/img/favicon/apple-icon-57x57.png",
+        "language": "español"
+    },
+    {
+        "stationuuid": "962027a4-0601-11e8-ae97-52543be04c81",
+        "family": "Electronica",
+        "name": "Loca Techno",
+        "tags": "techno",
+        "link1": "http://5.39.66.128:8009/live",
+        "homepage": "http://www.locafm.com",
+        "favicon": "http://www.locafm.com//assets/img/favicon/apple-icon-57x57.png",
+        "language": "español"
+    },
+    {
+        "stationuuid": "96200cd6-0601-11e8-ae97-52543be04c81",
+        "family": "Electronica",
+        "name": "Loca Trance",
+        "tags": "electronic,trance",
+        "link1": "http://5.39.66.128:8010/live",
+        "homepage": "http://www.locafm.com",
+        "favicon": "http://www.locafm.com//assets/img/favicon/apple-icon-57x57.png",
+        "language": "español"
+    },
+    {
+        "stationuuid": "96202eb7-0601-11e8-ae97-52543be04c81",
+        "family": "Electronica",
+        "name": "Loca Vintage",
+        "tags": "vintage",
+        "link1": "http://5.39.66.128:8000/live",
+        "homepage": "http://www.locafm.com",
+        "favicon": "http://www.locafm.com//assets/img/favicon/apple-icon-57x57.png",
+        "language": "español"
+    },
+    {
+        "stationuuid": "964e8a70-0601-11e8-ae97-52543be04c81",
+        "family": "Electronica",
+        "name": "LocaFM",
+        "tags": "80s,90s,00s,house,dance,electronic,djs",
+        "link1": "http://5.39.66.128:8008/live",
+        "homepage": "http://www.locafm.com/live/player.html?canal=techhouse",
+        "favicon": "http://www.locafm.com/assets/img/meta/generica.jpg",
+        "language": "español"
+    },
+    {
+        "stationuuid": "777d14b2-f344-11e9-a96c-52543be04c81",
+        "family": "Electronica",
+        "name": "Los 40 Dance",
+        "tags": "house,dance,electro,electronic,edm",
+        "link1": "http://playerservices.streamtheworld.com/api/livestream-redirect/LOS40_DANCE_SC",
+        "link2": "http://20723.live.streamtheworld.com:80/LOS40_DANCE_SC",
+        "homepage": "https://los40.com/",
+        "favicon": "https://recursosweb.prisaradio.com/fotos/original/010002753887.png",
+        "language": "español"
+    },
+    {
+        "stationuuid": "a415d46e-f235-11e8-a471-52543be04c81",
+        "family": "Electronica",
+        "name": "MortalFM",
+        "tags": "dance",
+        "link1": "http://server6.20comunicacion.com:8044/;",
+        "homepage": "http://www.mortalfm.es",
+        "favicon": "http://mortalfm.es/img/logoMortalfm.png",
+        "language": "español"
+    },
+    {
+        "stationuuid": "8d76db61-d90f-11e8-a9cc-52543be04c81",
+        "family": "Electronica",
+        "name": "No More No Less",
+        "tags": "ibiza,edm",
+        "link1": "http://s3.sonicabroadcast.com:8750/;.m3u",
+        "homepage": "http://www.ibizasonica.com/",
+        "favicon": "http://static.radio.es/images/broadcasts/c8/96/40909/3/c175.png",
+        "language": "español,ingles"
+    },
+    {
+        "stationuuid": "d218c77d-cffc-11e9-a861-52543be04c81",
+        "family": "Electronica",
+        "name": "OpenLab Radio",
+        "tags": "soul,house,r&b,jazz,techno,hip hop,electronic",
+        "link1": "https://ice04.fluidstream.net/openlab.mp3",
+        "homepage": "https://openlab.fm",
+        "favicon": "https://openlab.fm//apple-touch-icon.png",
+        "language": "ingles"
+    },
+    {
+        "stationuuid": "9611ffbc-0601-11e8-ae97-52543be04c81",
+        "family": "Electronica",
+        "name": "PlayTrance Radio - Main Channel",
+        "tags": "trance",
+        "link1": "https://live-ff.playtrance.com/playtrance-main.mp3",
+        "link2": "https://streaming.playtrance.com/playtrance-main-high",
+        "homepage": "https://www.playtrance.com/",
+        "favicon": "https://www.playtrance.com/static/mainblanco256.png",
+        "language": "español"
+    },
+    {
+        "stationuuid": "6ad5e93f-869d-4165-a685-25e8363c1bf4",
+        "family": "Electronica",
+        "name": "Radio Planeta Costa del Sol",
+        "tags": "dance,pop,r&b,house",
+        "link1": "https://radioplaneta.emitironline.com/radio",
+        "homepage": "https://www.radioplaneta.com/",
+        "favicon": "https://www.radioplaneta.com/resources/images/logo2.png",
+        "language": "español"
+    },
+    {
+        "stationuuid": "d4b92df6-d911-11e8-a9cc-52543be04c81",
+        "family": "Electronica",
+        "name": "Sonica Club",
+        "tags": "ibiza,electronic,house,tech house,djs",
+        "link1": "http://s3.sonicabroadcast.com:8032/;.m3u",
+        "homepage": "http://ibizasonica.com/sonica-club/",
+        "favicon": "https://i3.radionomy.com/radios/400/9ced11c8-1428-4bff-8b63-63e8be4c7f8d.png",
+        "language": "español,ingles"
+    },
+    {
+        "stationuuid": "60de58e2-d911-11e8-a9cc-52543be04c81",
+        "family": "Electronica",
+        "name": "Sonica Futura",
+        "tags": "experimental,avant garde,modern soul",
+        "link1": "http://s3.sonicabroadcast.com:8820/;.m3u",
+        "homepage": "http://ibizasonica.com/sonica-futura/",
+        "favicon": "https://i3.radionomy.com/radios/400/94e1c41a-facf-43bf-8fb8-92eed53f5cf1.png",
+        "language": "español,ingles"
+    },
+    {
+        "stationuuid": "a8445e6c-d910-11e8-a9cc-52543be04c81",
+        "family": "Electronica",
+        "name": "SoniCalm",
+        "tags": "downtempo,ambient,chillout,electronica,ibiza",
+        "link1": "http://s3.sonicabroadcast.com:8915/;.m3u",
+        "homepage": "https://ibizasonica.com/en/channel",
+        "favicon": "https://i3.radionomy.com/radios/400/13b23ea0-96b3-48e3-886a-20150526749f.png",
+        "language": "español,ingles"
+    },
+    {
+        "stationuuid": "964f133a-0601-11e8-ae97-52543be04c81",
+        "family": "Electronica",
+        "name": "Splash Radio - 1 Radio Dance",
+        "tags": "dance",
+        "link1": "http://streamingv2.shoutcast.com/1-Radio-Dance",
+        "homepage": "http://splashradio.es/",
+        "favicon": "https://i3.radionomy.com/radios/400/15e76aee-7d15-41b8-b332-7a78c93d155e.jpg",
+        "language": "español"
+    },
+    {
+        "stationuuid": "964f172d-0601-11e8-ae97-52543be04c81",
+        "family": "Electronica",
+        "name": "Splash Radio - 1 Radio Lounge",
+        "tags": "lounge",
+        "link1": "http://streamingv2.shoutcast.com/1RadioLounge",
+        "homepage": "http://splashradio.es/",
+        "favicon": "https://i3.radionomy.com/radios/400/f174448f-a3fd-49b9-b920-fcfbe2c98c47.jpg",
+        "language": "español"
+    },
+    {
+        "stationuuid": "96314885-0601-11e8-ae97-52543be04c81",
+        "family": "Electronica",
+        "name": "Star People",
+        "tags": "soul,lounge,r&b",
+        "link1": "http://2.139.144.101:8020/2?1508151505",
+        "homepage": "http://www.starpeople.es",
+        "favicon": "http://2.139.144.101/starpeople/logo/SP_500x500.jpg",
+        "language": "ingles"
+    },
+    {
+        "stationuuid": "13319429-6bb7-11ea-b1cf-52543be04c81",
+        "family": "Electronica",
+        "name": "Vicious Radio",
+        "tags": "house,electronic,djs",
+        "link1": "http://radiorobot.es:8000/nacionalweb",
+        "language": "español"
+    },
+    {
+        "stationuuid": "0988429c-d90f-11e8-a9cc-52543be04c81",
+        "family": "Electronica",
+        "name": "Where is the After Party?",
+        "tags": "ibiza,electronic,deep house,lounge",
+        "link1": "http://s3.sonicabroadcast.com:8825/;.m3u",
+        "homepage": "http://ibizasonica.com/radiochannel/where-is-the-after-party/",
+        "favicon": "http://static.radio.es/images/broadcasts/aa/56/100161/1/c175.png",
+        "language": "español,ingles"
+    }
+]

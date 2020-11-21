@@ -1,274 +1,272 @@
-{
-    "Hoja1": [
-        {
-            "stationuuid": "91da2d21-8ade-11e9-ad01-52543be04c81",
-            "family": "Rock & friends",
-            "name": "1oldies",
-            "tags": "adult contemporary,disco,romantic,rock,90s,80s,70s,60s,oldies",
-            "link1": "http://listen.radionomy.com/1oldies",
-            "homepage": "http://radioamor.es",
-            "favicon": "http://radioamor.es/wp-content/uploads/2019/04/cropped-1oldies512-270x270.jpg",
-            "language": "español"
-        },
-        {
-            "stationuuid": "961aea7a-0601-11e8-ae97-52543be04c81",
-            "family": "Rock & friends",
-            "name": "ATLANTIS FM - Lanzarote - 101,7 MHz",
-            "tags": "rock,soul,jazz",
-            "link1": "http://radionetz.de:8000/atlantisfm.mp3",
-            "homepage": "http://www.atlantisfm.de/",
-            "favicon": "http://www.atlantisfm.de///templates/yoo_sun/favicon.ico",
-            "language": "german"
-        },
-        {
-            "stationuuid": "f5e43b5d-2f4a-45c1-b1f1-9c6c770a3d37",
-            "family": "Rock & friends",
-            "name": "Banana Ska",
-            "tags": "punk,ska",
-            "link1": "http://streamingv2.shoutcast.com/BananaSka",
-            "homepage": "http://bananaska.playtheradio.com/",
-            "favicon": "http://i.radionomy.com/radio/110/7C5E71B7-BFE6-42DB-B1C5-20D270EF5B09.png",
-            "language": "español"
-        },
-        {
-            "stationuuid": "129fd8a1-67f0-11e9-af37-52543be04c81",
-            "family": "Rock & friends",
-            "name": "BN Mallorca",
-            "tags": "indie,music",
-            "link1": "http://91.121.156.27:8008/stream",
-            "homepage": "http://www.bnmallorca.com",
-            "favicon": "https://www.bnmallorca.com/wp-content/uploads/radio-icon20x20.png",
-            "language": "español"
-        },
-        {
-            "stationuuid": "66889e5b-68ae-11ea-9d09-52543be04c81",
-            "family": "Rock & friends",
-            "name": "Emisión Pirata",
-            "tags": "heavy metal,heavy rock,rock",
-            "link1": "http://streamingv2.shoutcast.com/Emision-Pirata",
-            "homepage": "http://elpirata.com",
-            "language": "español"
-        },
-        {
-            "stationuuid": "eba6c427-8f78-4a9d-8e4e-f47805d7b51e",
-            "family": "Rock & friends",
-            "name": "Funky Corner Radio (Spain)",
-            "tags": "funk,r&b,disco,70s disco,70s,80s,soul,black music,oldies,rare groove,motown",
-            "link1": "https://ais-sa2.cdnstream1.com/2447_192.mp3",
-            "homepage": "https://www.funkycorner.it",
-            "favicon": "https://www.funkycorner.it/FCR300.png",
-            "language": "ingles"
-        },
-        {
-            "stationuuid": "960b436d-0601-11e8-ae97-52543be04c81",
-            "family": "Rock & friends",
-            "name": "Hola 95.7 FM 1 Costa Calma",
-            "tags": "soft rock,pop",
-            "link1": "http://5.135.183.124:8207/stream",
-            "homepage": "http://www.holafm.com/",
-            "favicon": "http://holafm.com/wp-content/uploads/2017/08/Loge_abgerundet.png",
-            "language": "ingles,german"
-        },
-        {
-            "stationuuid": "d26f1b13-acc1-11e8-aa67-52543be04c81",
-            "family": "Rock & friends",
-            "name": "JFK ibiza",
-            "tags": "jazz,soul,funk,r&b",
-            "link1": "http://listen.radionomy.com/jfk",
-            "homepage": "http://www.jfkradio.es",
-            "favicon": "http://www.jfkradio.es/favicon.ico"
-        },
-        {
-            "stationuuid": "962ceeb5-0601-11e8-ae97-52543be04c81",
-            "family": "Rock & friends",
-            "name": "La Veu 107.4 Sant Joan de les Abadesses",
-            "tags": "indie,alternative rock",
-            "link1": "http://streaming.enantena.com:8000/laveu128.mp3",
-            "homepage": "http://www.santjoandelesabadesses.cat/index.php/noticies-la-veu",
-            "favicon": "http://www.santjoandelesabadesses.cat/images/logotips/logo_laveu.png",
-            "language": "catalan"
-        },
-        {
-            "stationuuid": "0fce234e-f32a-11e9-a96c-52543be04c81",
-            "family": "Rock & friends",
-            "name": "NoTypicalRadio - Rap",
-            "tags": "reggae,underground,hip hop,rap",
-            "link1": "https://rap.notypicalradio.com/;?icy=http",
-            "homepage": "https://notypicalradio.com/emisoras/rap/",
-            "favicon": "https://notypicalradio.com/wp-content/uploads/2017/05/notypicalrap-1.jpg",
-            "language": "español,ingles,catalan"
-        },
-        {
-            "stationuuid": "a0523af4-f32a-11e9-a96c-52543be04c81",
-            "family": "Rock & friends",
-            "name": "NoTypicalRadio - Rock",
-            "tags": "nu metal,punk,indie rock,alternative rock,classic rock,rock",
-            "link1": "https://rock.notypicalradio.com/;?icy=http",
-            "homepage": "https://notypicalradio.com/emisoras/rock/",
-            "favicon": "https://notypicalradio.com/wp-content/uploads/2017/05/notypicalrock-1.jpg",
-            "language": "español,ingles"
-        },
-        {
-            "stationuuid": "960e1c18-0601-11e8-ae97-52543be04c81",
-            "family": "Rock & friends",
-            "name": "PaganMetalRadio",
-            "tags": "viking,pagan,folk,metal",
-            "link1": "http://62.210.209.179:8030/;",
-            "homepage": "https://www.paganmetalradio.com/",
-            "favicon": "https://www.paganmetalradio.com/favicon.ico",
-            "language": "español"
-        },
-        {
-            "stationuuid": "964165a2-0601-11e8-ae97-52543be04c81",
-            "family": "Rock & friends",
-            "name": "PUNK irratia",
-            "tags": "punk rock,punk,hardcore,street-punk,anarcho-punk",
-            "link1": "http://punkirratia.net:8000/punk",
-            "homepage": "http://punkirratia.net",
-            "favicon": "http://punkirratia.net/favicon.ico",
-            "language": "euskera,español"
-        },
-        {
-            "stationuuid": "96105c20-0601-11e8-ae97-52543be04c81",
-            "family": "Rock & friends",
-            "name": "Qfm",
-            "tags": "blues,latin jazz,smooth jazz,jazz",
-            "link1": "http://51.255.235.165:5092/;",
-            "homepage": "http://www.qmusica.com",
-            "favicon": "http://cdn-radiotime-logos.tunein.com/s48765q.png",
-            "language": "multilingual"
-        },
-        {
-            "stationuuid": "36ab0a02-ad13-11e8-aa67-52543be04c81",
-            "family": "Rock & friends",
-            "name": "Radio Califa 2",
-            "tags": "new wave,britpop,indie rock,experimental rock",
-            "link1": "http://streamingv2.shoutcast.com/Lambda-1-0-RadioCalifa-",
-            "homepage": "http://www.radiocalifa.com",
-            "favicon": "https://static.wixstatic.com/media/e79af1_720741625ce70c8754a35ce75d8c996f.png/v1/fill/w_615,h_357,al_c,usm_0.66_1.00_0.01/e79af1_720741625ce70c8754a35ce75d8c996f.png",
-            "language": "español"
-        },
-        {
-            "stationuuid": "7dd8b01e-5d9b-11ea-be63-52543be04c81",
-            "family": "Rock & friends",
-            "name": "Radio Radio Network",
-            "tags": "jazz,pop,chillout,smooth jazz,bossa",
-            "link1": "http://188.165.205.70:8000/stream",
-            "homepage": "https://www.radioradio.es/",
-            "favicon": "https://www.radioradio.es/favicon.ico",
-            "language": "ingles"
-        },
-        {
-            "stationuuid": "961a5258-0601-11e8-ae97-52543be04c81",
-            "family": "Rock & friends",
-            "name": "Rap on Air",
-            "tags": "hip hop,rap",
-            "link1": "http://streamingv2.shoutcast.com/RAP-ON-AIR-RADIO",
-            "homepage": "http://www.raponair.com/",
-            "favicon": "http://www.raponair.com/wp-content/uploads/2016/03/cropped-ICONO-APP-copia-270x270.png",
-            "language": "español"
-        },
-        {
-            "stationuuid": "0442eaf7-1fe0-11e8-a334-52543be04c81",
-            "family": "Rock & friends",
-            "name": "Replicants Factory DJ",
-            "tags": "rock,classic rock",
-            "broken": "TRUE",
-            "link1": "http://mail.efraim.cat:8000/listen",
-            "homepage": "https://replicantsfactory.com",
-            "favicon": "https://replicantsfactory.com/wp-content/uploads/favicon.png",
-            "language": "español,catalan"
-        },
-        {
-            "stationuuid": "7adeeb30-1fdf-11e8-a334-52543be04c81",
-            "family": "Rock & friends",
-            "name": "Replicants On The Air",
-            "tags": "rock,classic rock",
-            "broken": "TRUE",
-            "link1": "http://mail.efraim.cat:8000/ontheair",
-            "homepage": "https://replicantsfactory.com",
-            "favicon": "https://replicantsfactory.com/wp-content/uploads/favicon.png",
-            "language": "español,catalan"
-        },
-        {
-            "stationuuid": "9610e668-0601-11e8-ae97-52543be04c81",
-            "family": "Rock & friends",
-            "name": "RetroPop",
-            "tags": "dance,oldies,classic hits,music,rock,pop,90s,80s",
-            "link1": "http://node-22.zeno.fm/aqr9g5q5pvduv?rj-ttl=5&rj-tok=AAABdDl9KsAAagk7h2EfM8N5mQ",
-            "homepage": "http://www.retropop.es",
-            "favicon": "http://i66.tinypic.com/fp58ol.png",
-            "language": "español"
-        },
-        {
-            "stationuuid": "3cf37714-3890-11ea-8dd7-52543be04c81",
-            "family": "Rock & friends",
-            "name": "Riff Radio",
-            "tags": "alternative rock,classic rock,hard rock, metal, indie rock, rock & roll",
-            "link1": "http://188.165.131.13:7015/live",
-            "homepage": "https://chemavilchez2.wixsite.com/riffradio",
-            "favicon": "http://riffradiomalaga.myl2mr.com/users.img/3115153/1577998809/icon_thumb_80_1577998809.jpg",
-            "language": "español"
-        },
-        {
-            "stationuuid": "7b678fd2-7998-11e9-aa30-52543be04c81",
-            "family": "Rock & friends",
-            "name": "RKV Radio",
-            "tags": "rock",
-            "link1": "http://radioserver10.profesionalhosting.com:40968/stream",
-            "homepage": "http://rkvradio.com/rkv-news",
-            "favicon": "https://s0.wp.com/i/blank.jpg",
-            "language": "español"
-        },
-        {
-            "stationuuid": "3e40eb83-289f-11ea-aa0c-52543be04c81",
-            "family": "Rock & friends",
-            "name": "Spectrum FM Costa Almeria",
-            "tags": "pop rock,british,expat",
-            "link1": "https://eu8.fastcast4u.com/proxy/almeria2?mp=/1",
-            "homepage": "https://costaalmeria.spectrumfm.net/",
-            "favicon": "https://costaalmeria.spectrumfm.net/wp-content/uploads/sites/2/2017/09/cropped-image001-270x270.png",
-            "language": "ingles"
-        },
-        {
-            "stationuuid": "964f15dd-0601-11e8-ae97-52543be04c81",
-            "family": "Rock & friends",
-            "name": "Splash Radio - 1 Radio Jazz",
-            "tags": "jazz",
-            "link1": "http://streamingv2.shoutcast.com/1RadioJazz",
-            "homepage": "http://splashradio.es/",
-            "favicon": "https://i3.radionomy.com/radios/400/46849f9f-8b1d-43c1-bc09-959d36784c5c.jpg",
-            "language": "español"
-        },
-        {
-            "stationuuid": "96120507-0601-11e8-ae97-52543be04c81",
-            "family": "Rock & friends",
-            "name": "Splash Radio - 2 Love Radio",
-            "tags": "romantic,music",
-            "link1": "http://streamingv2.shoutcast.com/2LoveRadio",
-            "homepage": "http://splashradio.es/",
-            "favicon": "https://i3.radionomy.com/radios/400/f5b2ccea-dfe8-4ddd-9b24-5a72e2272349.jpg",
-            "language": "español"
-        },
-        {
-            "stationuuid": "7593743f-3390-11ea-afca-52543be04c81",
-            "family": "Rock & friends",
-            "name": "Sputnik Radio",
-            "tags": "alternative,indie",
-            "link1": "http://sputnikradio.es:8009/live",
-            "homepage": "http://www.sputnikradio.es/",
-            "favicon": "http://www.sputnikradio.es/wp-content/uploads/2019/10/Sputnik-radio-Rojo-recortado.jpg",
-            "language": "español"
-        },
-        {
-            "stationuuid": "9637b5de-0601-11e8-ae97-52543be04c81",
-            "family": "Rock & friends",
-            "name": "Synth-Hero",
-            "tags": "hits",
-            "link1": "http://streaming.radionomy.com/Synth-Hero",
-            "homepage": "http://syntheroradio.com/",
-            "favicon": "http://syntheroradio.com/wp-content/uploads/2015/09/Logo.png",
-            "language": "español"
-        }
-    ]
-}
+[
+    {
+        "stationuuid": "91da2d21-8ade-11e9-ad01-52543be04c81",
+        "family": "Rock & friends",
+        "name": "1oldies",
+        "tags": "adult contemporary,disco,romantic,rock,90s,80s,70s,60s,oldies",
+        "link1": "http://listen.radionomy.com/1oldies",
+        "homepage": "http://radioamor.es",
+        "favicon": "http://radioamor.es/wp-content/uploads/2019/04/cropped-1oldies512-270x270.jpg",
+        "language": "español"
+    },
+    {
+        "stationuuid": "961aea7a-0601-11e8-ae97-52543be04c81",
+        "family": "Rock & friends",
+        "name": "ATLANTIS FM - Lanzarote - 101,7 MHz",
+        "tags": "rock,soul,jazz",
+        "link1": "http://radionetz.de:8000/atlantisfm.mp3",
+        "homepage": "http://www.atlantisfm.de/",
+        "favicon": "http://www.atlantisfm.de///templates/yoo_sun/favicon.ico",
+        "language": "german"
+    },
+    {
+        "stationuuid": "f5e43b5d-2f4a-45c1-b1f1-9c6c770a3d37",
+        "family": "Rock & friends",
+        "name": "Banana Ska",
+        "tags": "punk,ska",
+        "link1": "http://streamingv2.shoutcast.com/BananaSka",
+        "homepage": "http://bananaska.playtheradio.com/",
+        "favicon": "http://i.radionomy.com/radio/110/7C5E71B7-BFE6-42DB-B1C5-20D270EF5B09.png",
+        "language": "español"
+    },
+    {
+        "stationuuid": "129fd8a1-67f0-11e9-af37-52543be04c81",
+        "family": "Rock & friends",
+        "name": "BN Mallorca",
+        "tags": "indie,music",
+        "link1": "http://91.121.156.27:8008/stream",
+        "homepage": "http://www.bnmallorca.com",
+        "favicon": "https://www.bnmallorca.com/wp-content/uploads/radio-icon20x20.png",
+        "language": "español"
+    },
+    {
+        "stationuuid": "66889e5b-68ae-11ea-9d09-52543be04c81",
+        "family": "Rock & friends",
+        "name": "Emisión Pirata",
+        "tags": "heavy metal,heavy rock,rock",
+        "link1": "http://streamingv2.shoutcast.com/Emision-Pirata",
+        "homepage": "http://elpirata.com",
+        "language": "español"
+    },
+    {
+        "stationuuid": "eba6c427-8f78-4a9d-8e4e-f47805d7b51e",
+        "family": "Rock & friends",
+        "name": "Funky Corner Radio (Spain)",
+        "tags": "funk,r&b,disco,70s disco,70s,80s,soul,black music,oldies,rare groove,motown",
+        "link1": "https://ais-sa2.cdnstream1.com/2447_192.mp3",
+        "homepage": "https://www.funkycorner.it",
+        "favicon": "https://www.funkycorner.it/FCR300.png",
+        "language": "ingles"
+    },
+    {
+        "stationuuid": "960b436d-0601-11e8-ae97-52543be04c81",
+        "family": "Rock & friends",
+        "name": "Hola 95.7 FM 1 Costa Calma",
+        "tags": "soft rock,pop",
+        "link1": "http://5.135.183.124:8207/stream",
+        "homepage": "http://www.holafm.com/",
+        "favicon": "http://holafm.com/wp-content/uploads/2017/08/Loge_abgerundet.png",
+        "language": "ingles,german"
+    },
+    {
+        "stationuuid": "d26f1b13-acc1-11e8-aa67-52543be04c81",
+        "family": "Rock & friends",
+        "name": "JFK ibiza",
+        "tags": "jazz,soul,funk,r&b",
+        "link1": "http://listen.radionomy.com/jfk",
+        "homepage": "http://www.jfkradio.es",
+        "favicon": "http://www.jfkradio.es/favicon.ico"
+    },
+    {
+        "stationuuid": "962ceeb5-0601-11e8-ae97-52543be04c81",
+        "family": "Rock & friends",
+        "name": "La Veu 107.4 Sant Joan de les Abadesses",
+        "tags": "indie,alternative rock",
+        "link1": "http://streaming.enantena.com:8000/laveu128.mp3",
+        "homepage": "http://www.santjoandelesabadesses.cat/index.php/noticies-la-veu",
+        "favicon": "http://www.santjoandelesabadesses.cat/images/logotips/logo_laveu.png",
+        "language": "catalan"
+    },
+    {
+        "stationuuid": "0fce234e-f32a-11e9-a96c-52543be04c81",
+        "family": "Rock & friends",
+        "name": "NoTypicalRadio - Rap",
+        "tags": "reggae,underground,hip hop,rap",
+        "link1": "https://rap.notypicalradio.com/;?icy=http",
+        "homepage": "https://notypicalradio.com/emisoras/rap/",
+        "favicon": "https://notypicalradio.com/wp-content/uploads/2017/05/notypicalrap-1.jpg",
+        "language": "español,ingles,catalan"
+    },
+    {
+        "stationuuid": "a0523af4-f32a-11e9-a96c-52543be04c81",
+        "family": "Rock & friends",
+        "name": "NoTypicalRadio - Rock",
+        "tags": "nu metal,punk,indie rock,alternative rock,classic rock,rock",
+        "link1": "https://rock.notypicalradio.com/;?icy=http",
+        "homepage": "https://notypicalradio.com/emisoras/rock/",
+        "favicon": "https://notypicalradio.com/wp-content/uploads/2017/05/notypicalrock-1.jpg",
+        "language": "español,ingles"
+    },
+    {
+        "stationuuid": "960e1c18-0601-11e8-ae97-52543be04c81",
+        "family": "Rock & friends",
+        "name": "PaganMetalRadio",
+        "tags": "viking,pagan,folk,metal",
+        "link1": "http://62.210.209.179:8030/;",
+        "homepage": "https://www.paganmetalradio.com/",
+        "favicon": "https://www.paganmetalradio.com/favicon.ico",
+        "language": "español"
+    },
+    {
+        "stationuuid": "964165a2-0601-11e8-ae97-52543be04c81",
+        "family": "Rock & friends",
+        "name": "PUNK irratia",
+        "tags": "punk rock,punk,hardcore,street-punk,anarcho-punk",
+        "link1": "http://punkirratia.net:8000/punk",
+        "homepage": "http://punkirratia.net",
+        "favicon": "http://punkirratia.net/favicon.ico",
+        "language": "euskera,español"
+    },
+    {
+        "stationuuid": "96105c20-0601-11e8-ae97-52543be04c81",
+        "family": "Rock & friends",
+        "name": "Qfm",
+        "tags": "blues,latin jazz,smooth jazz,jazz",
+        "link1": "http://51.255.235.165:5092/;",
+        "homepage": "http://www.qmusica.com",
+        "favicon": "http://cdn-radiotime-logos.tunein.com/s48765q.png",
+        "language": "multilingual"
+    },
+    {
+        "stationuuid": "36ab0a02-ad13-11e8-aa67-52543be04c81",
+        "family": "Rock & friends",
+        "name": "Radio Califa 2",
+        "tags": "new wave,britpop,indie rock,experimental rock",
+        "link1": "http://streamingv2.shoutcast.com/Lambda-1-0-RadioCalifa-",
+        "homepage": "http://www.radiocalifa.com",
+        "favicon": "https://static.wixstatic.com/media/e79af1_720741625ce70c8754a35ce75d8c996f.png/v1/fill/w_615,h_357,al_c,usm_0.66_1.00_0.01/e79af1_720741625ce70c8754a35ce75d8c996f.png",
+        "language": "español"
+    },
+    {
+        "stationuuid": "7dd8b01e-5d9b-11ea-be63-52543be04c81",
+        "family": "Rock & friends",
+        "name": "Radio Radio Network",
+        "tags": "jazz,pop,chillout,smooth jazz,bossa",
+        "link1": "http://188.165.205.70:8000/stream",
+        "homepage": "https://www.radioradio.es/",
+        "favicon": "https://www.radioradio.es/favicon.ico",
+        "language": "ingles"
+    },
+    {
+        "stationuuid": "961a5258-0601-11e8-ae97-52543be04c81",
+        "family": "Rock & friends",
+        "name": "Rap on Air",
+        "tags": "hip hop,rap",
+        "link1": "http://streamingv2.shoutcast.com/RAP-ON-AIR-RADIO",
+        "homepage": "http://www.raponair.com/",
+        "favicon": "http://www.raponair.com/wp-content/uploads/2016/03/cropped-ICONO-APP-copia-270x270.png",
+        "language": "español"
+    },
+    {
+        "stationuuid": "0442eaf7-1fe0-11e8-a334-52543be04c81",
+        "family": "Rock & friends",
+        "name": "Replicants Factory DJ",
+        "tags": "rock,classic rock",
+        "broken": "TRUE",
+        "link1": "http://mail.efraim.cat:8000/listen",
+        "homepage": "https://replicantsfactory.com",
+        "favicon": "https://replicantsfactory.com/wp-content/uploads/favicon.png",
+        "language": "español,catalan"
+    },
+    {
+        "stationuuid": "7adeeb30-1fdf-11e8-a334-52543be04c81",
+        "family": "Rock & friends",
+        "name": "Replicants On The Air",
+        "tags": "rock,classic rock",
+        "broken": "TRUE",
+        "link1": "http://mail.efraim.cat:8000/ontheair",
+        "homepage": "https://replicantsfactory.com",
+        "favicon": "https://replicantsfactory.com/wp-content/uploads/favicon.png",
+        "language": "español,catalan"
+    },
+    {
+        "stationuuid": "9610e668-0601-11e8-ae97-52543be04c81",
+        "family": "Rock & friends",
+        "name": "RetroPop",
+        "tags": "dance,oldies,classic hits,music,rock,pop,90s,80s",
+        "link1": "http://node-22.zeno.fm/aqr9g5q5pvduv?rj-ttl=5&rj-tok=AAABdDl9KsAAagk7h2EfM8N5mQ",
+        "homepage": "http://www.retropop.es",
+        "favicon": "http://i66.tinypic.com/fp58ol.png",
+        "language": "español"
+    },
+    {
+        "stationuuid": "3cf37714-3890-11ea-8dd7-52543be04c81",
+        "family": "Rock & friends",
+        "name": "Riff Radio",
+        "tags": "alternative rock,classic rock,hard rock, metal, indie rock, rock & roll",
+        "link1": "http://188.165.131.13:7015/live",
+        "homepage": "https://chemavilchez2.wixsite.com/riffradio",
+        "favicon": "http://riffradiomalaga.myl2mr.com/users.img/3115153/1577998809/icon_thumb_80_1577998809.jpg",
+        "language": "español"
+    },
+    {
+        "stationuuid": "7b678fd2-7998-11e9-aa30-52543be04c81",
+        "family": "Rock & friends",
+        "name": "RKV Radio",
+        "tags": "rock",
+        "link1": "http://radioserver10.profesionalhosting.com:40968/stream",
+        "homepage": "http://rkvradio.com/rkv-news",
+        "favicon": "https://s0.wp.com/i/blank.jpg",
+        "language": "español"
+    },
+    {
+        "stationuuid": "3e40eb83-289f-11ea-aa0c-52543be04c81",
+        "family": "Rock & friends",
+        "name": "Spectrum FM Costa Almeria",
+        "tags": "pop rock,british,expat",
+        "link1": "https://eu8.fastcast4u.com/proxy/almeria2?mp=/1",
+        "homepage": "https://costaalmeria.spectrumfm.net/",
+        "favicon": "https://costaalmeria.spectrumfm.net/wp-content/uploads/sites/2/2017/09/cropped-image001-270x270.png",
+        "language": "ingles"
+    },
+    {
+        "stationuuid": "964f15dd-0601-11e8-ae97-52543be04c81",
+        "family": "Rock & friends",
+        "name": "Splash Radio - 1 Radio Jazz",
+        "tags": "jazz",
+        "link1": "http://streamingv2.shoutcast.com/1RadioJazz",
+        "homepage": "http://splashradio.es/",
+        "favicon": "https://i3.radionomy.com/radios/400/46849f9f-8b1d-43c1-bc09-959d36784c5c.jpg",
+        "language": "español"
+    },
+    {
+        "stationuuid": "96120507-0601-11e8-ae97-52543be04c81",
+        "family": "Rock & friends",
+        "name": "Splash Radio - 2 Love Radio",
+        "tags": "romantic,music",
+        "link1": "http://streamingv2.shoutcast.com/2LoveRadio",
+        "homepage": "http://splashradio.es/",
+        "favicon": "https://i3.radionomy.com/radios/400/f5b2ccea-dfe8-4ddd-9b24-5a72e2272349.jpg",
+        "language": "español"
+    },
+    {
+        "stationuuid": "7593743f-3390-11ea-afca-52543be04c81",
+        "family": "Rock & friends",
+        "name": "Sputnik Radio",
+        "tags": "alternative,indie",
+        "link1": "http://sputnikradio.es:8009/live",
+        "homepage": "http://www.sputnikradio.es/",
+        "favicon": "http://www.sputnikradio.es/wp-content/uploads/2019/10/Sputnik-radio-Rojo-recortado.jpg",
+        "language": "español"
+    },
+    {
+        "stationuuid": "9637b5de-0601-11e8-ae97-52543be04c81",
+        "family": "Rock & friends",
+        "name": "Synth-Hero",
+        "tags": "hits",
+        "link1": "http://streaming.radionomy.com/Synth-Hero",
+        "homepage": "http://syntheroradio.com/",
+        "favicon": "http://syntheroradio.com/wp-content/uploads/2015/09/Logo.png",
+        "language": "español"
+    }
+]
