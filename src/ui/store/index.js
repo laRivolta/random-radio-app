@@ -1,19 +1,17 @@
 import Vue from "vue";
 import Vuex from "vuex";
 
+import categories from "@/ui/store/categories/index";
+import radioStationLists from "@/ui/store/radioStationLists/index";
+
 Vue.use(Vuex);
 
 export default new Vuex.Store({
-  state: {
-    categories: [
-      { id: 0, name: "Electronica", slug: "electronica" },
-      { id: 1, name: "Hits", slug: "hits" },
-      { id: 2, name: "Past decades", slug: "past_decades" },
-      { id: 3, name: "Rock & friends", slug: "rock&friends" },
-      { id: 4, name: "Relax", slug: "relax" }
-    ]
-  },
+  state: {},
   mutations: {},
   actions: {},
-  modules: {}
+  modules: {
+    categories: categories,
+    radioStationLists: radioStationLists
+  }
 });

@@ -70,8 +70,7 @@
 </template>
 
 <script>
-import RadioStationsDataJson from "@/ui/assets/resources/radioStationsData.json";
-import { mapState } from "vuex";
+import { mapGetters } from "vuex";
 import CategoryList from "@/ui/components/CategoryList.vue";
 
 export default {
@@ -82,7 +81,7 @@ export default {
   data() {
     return {
       baseUrl: process.env.BASE_URL,
-      radioStationsData: {},
+      radioStationList: {},
       currentRadioStation: {},
       tags: []
     };
@@ -91,7 +90,7 @@ export default {
     this.init();
   },
   computed: {
-    ...mapState(["categories"]),
+    ...mapGetters("radioStationLists", ["getRadioStationListByCategoryName"]),
     generateRadioLink() {
       return this.currentRadioStation.link1;
     }
@@ -101,9 +100,11 @@ export default {
   },
   methods: {
     async init() {
-      this.radioStationsData = RadioStationsDataJson;
-      this.currentRadioStation = this.radioStationsData[
-        this.getRadioStationIdParam()
+      this.radioStationList = this.getRadioStationListByCategoryName(
+        this.getCategorySlugParam()
+      ).list;
+      this.currentRadioStation = this.radioStationList[
+        this.getRadioStationListIndex()
       ];
       this.tags = this.splitTags();
     },
@@ -115,18 +116,18 @@ export default {
       return tags;
     },
     nextRadioStation() {
-      let nextIndex = parseInt(this.getRadioStationIdParam()) + 1;
-      return `/category/${this.getCategoryParam()}/${nextIndex}`;
+      let nextIndex = parseInt(this.getRadioStationListIndex()) + 1;
+      return `/category/${this.getCategorySlugParam()}/${nextIndex}`;
     },
     playRadio() {
       var player = document.getElementById("radio");
       player.play();
       player.focus();
     },
-    getRadioStationIdParam() {
+    getRadioStationListIndex() {
       return this.$route.params.radioStationId;
     },
-    getCategoryParam() {
+    getCategorySlugParam() {
       return this.$route.params.category;
     },
     goBack() {
