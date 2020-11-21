@@ -18,7 +18,7 @@
       <v-row align="center" no-gutters justify-start>
         <v-col :cols="8">
           <audio id="radio" tabindex="0" controls class="hidden" preload="none">
-            <source :src="generateRadioLink" />
+            <source :src="generateRadioLink()" />
           </audio>
         </v-col>
 
@@ -58,7 +58,7 @@
         </p>
 
         <v-row>
-          <v-col v-for="tag in tags" :key="tag" cols="4" sm="s">
+          <v-col v-for="tag in currentRadioTags" :key="tag" cols="4" sm="s">
             <v-btn class="font-weight-bold" icon disabled color="purple">
               {{ tag }}
             </v-btn>
@@ -81,32 +81,26 @@ export default {
   data() {
     return {
       baseUrl: process.env.BASE_URL,
-      radioStationList: {},
       currentRadioStation: {},
-      tags: []
+      currentRadioTags: []
     };
   },
   created() {
     this.init();
   },
   computed: {
-    ...mapGetters("radioStationLists", ["getRadioStationListByCategoryName"]),
-    generateRadioLink() {
-      return this.currentRadioStation.link1;
-    }
+    ...mapGetters("categories", ["getRadioByCategorySlugAndRadioId"])
   },
   mounted() {
     this.playRadio();
   },
   methods: {
-    async init() {
-      this.radioStationList = this.getRadioStationListByCategoryName(
-        this.getCategorySlugParam()
-      ).list;
-      this.currentRadioStation = this.radioStationList[
-        this.getRadioStationListIndex()
-      ];
-      this.tags = this.splitTags();
+    init() {
+      this.currentRadioStation = this.getRadioByCategorySlugAndRadioId(
+        this.getCategorySlugRequestParam(),
+        this.getRadioStationIndexRequestParam()
+      );
+      this.currentRadioTags = this.splitTags();
     },
     splitTags() {
       let tags;
@@ -115,19 +109,22 @@ export default {
       }
       return tags;
     },
+    generateRadioLink() {
+      return this.currentRadioStation.link1;
+    },
     nextRadioStation() {
-      let nextIndex = parseInt(this.getRadioStationListIndex()) + 1;
-      return `/category/${this.getCategorySlugParam()}/${nextIndex}`;
+      let nextIndex = parseInt(this.getRadioStationIndexRequestParam()) + 1;
+      return `/category/${this.getCategorySlugRequestParam()}/${nextIndex}`;
     },
     playRadio() {
       var player = document.getElementById("radio");
       player.play();
       player.focus();
     },
-    getRadioStationListIndex() {
+    getRadioStationIndexRequestParam() {
       return this.$route.params.radioStationId;
     },
-    getCategorySlugParam() {
+    getCategorySlugRequestParam() {
       return this.$route.params.category;
     },
     goBack() {
