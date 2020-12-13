@@ -31,23 +31,21 @@ export default {
     CategoryList,
     RadioStation
   },
-  created() {
-    this.currentRadioStation = this.getRadioByCategorySlugAndRadioId(
-      this.currentRadioCategorySlug,
-      this.currentRadioIdInCategory
-    );
-  },
   computed: {
     ...mapGetters("categories", ["getRadioByCategorySlugAndRadioId"]),
+    currentRadioStation: {
+      get: () =>
+        this.getRadioByCategorySlugAndRadioId(
+          this.currentRadioCategorySlug,
+          this.currentRadioIdInCategory
+        ),
+      set: otherRadioStation => (this.currentRadioStation = otherRadioStation)
+    },
     currentRadioIdInCategory: {
-      get() {
-        return this.$route.params.radioIdInCategory;
-      }
+      get: () => this.$route.params.radioIdInCategory
     },
     currentRadioCategorySlug: {
-      get() {
-        return this.$route.params.categorySlug;
-      }
+      get: () => this.$route.params.categorySlug
     }
   },
   methods: {

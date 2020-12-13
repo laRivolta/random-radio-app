@@ -18,9 +18,7 @@ export default {
   },
   computed: {
     nextRadioStation: {
-      get() {
-        return `/category/${this.categorySlug}/${this.radioIdInCategory + 1}`;
-      }
+      get: () => `/category/${this.categorySlug}/${this.radioIdInCategory + 1}`
     }
   }
 };
