@@ -2,11 +2,10 @@
   <div>
     <v-container>
       <v-row align="center" no-gutters justify-start>
-        <v-col :cols="8">
-          <audio id="radio" tabindex="0" controls class="hidden" preload="none">
-            <source :src="generateRadioLink()" />
-          </audio>
-        </v-col>
+        <player
+          :link1="radioStation.link1"
+          :link2="radioStation.link2"
+        ></player>
 
         <v-col :cols="4">
           <v-btn
@@ -49,32 +48,23 @@
 
 <script>
 import Tags from "@/ui/components/RadioStation/Tags.vue";
+import Player from "@/ui/components/RadioStation/Player.vue";
 
 export default {
   name: "RadioStation",
   components: {
-    Tags
+    Tags,
+    Player
   },
   props: {
     radioStation: Object,
     categorySlug: String,
     radioIdInCategory: Number
   },
-  mounted() {
-    this.playRadio();
-  },
   methods: {
-    generateRadioLink() {
-      return this.radioStation.link1;
-    },
     nextRadioStation() {
       const nextRadioId = this.radioIdInCategory + 1;
       return `/category/${this.categorySlug}/${nextRadioId}`;
-    },
-    playRadio() {
-      var player = document.getElementById("radio");
-      player.play();
-      player.focus();
     }
   }
 };
