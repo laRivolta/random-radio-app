@@ -2,10 +2,7 @@
   <div>
     <v-container>
       <v-row align="center" no-gutters justify-start>
-        <player
-          :link1="radioStation.link1"
-          :link2="radioStation.link2"
-        ></player>
+        <player :link1="link1" :link2="link2"></player>
         <next-radio
           :categorySlug="categorySlug"
           :radioIdInCategory="radioIdInCategory"
@@ -30,7 +27,7 @@
           <b>{{ radioStation.name }}</b>
           con las siguientes etiquetas
         </p>
-        <tags :rawTags="radioStation.tags"></tags>
+        <tags :rawTags="tags"></tags>
       </v-container>
     </div>
   </div>
@@ -52,6 +49,23 @@ export default {
     radioStation: Object,
     categorySlug: String,
     radioIdInCategory: Number
+  },
+  computed: {
+    tags: {
+      get() {
+        return this.radioStation.tags;
+      }
+    },
+    link1: {
+      get() {
+        return this.radioStation.link1;
+      }
+    },
+    link2: {
+      get() {
+        return this.radioStation.link2;
+      }
+    }
   }
 };
 </script>
