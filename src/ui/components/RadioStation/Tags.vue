@@ -15,7 +15,9 @@ export default {
     rawTags: String
   },
   data() {
-    return { splittedTags: this.rawTags.split(",") };
+    return {
+      splittedTags: this.rawTags.split(",")
+    };
   }
 };
 </script>

@@ -6,20 +6,10 @@
           :link1="radioStation.link1"
           :link2="radioStation.link2"
         ></player>
-
-        <v-col :cols="4">
-          <v-btn
-            :to="nextRadioStation()"
-            color="purple"
-            class="white--text"
-            x-large
-          >
-            <v-icon dark>
-              mdi-cached
-            </v-icon>
-            ¡Otra!
-          </v-btn>
-        </v-col>
+        <next-radio
+          :categorySlug="categorySlug"
+          :radioIdInCategory="radioIdInCategory"
+        ></next-radio>
       </v-row>
       <v-row align="center">
         <v-col cols="12">
@@ -49,23 +39,19 @@
 <script>
 import Tags from "@/ui/components/RadioStation/Tags.vue";
 import Player from "@/ui/components/RadioStation/Player.vue";
+import NextRadio from "@/ui/components/RadioStation/NextRadio.vue";
 
 export default {
   name: "RadioStation",
   components: {
     Tags,
-    Player
+    Player,
+    NextRadio
   },
   props: {
     radioStation: Object,
     categorySlug: String,
     radioIdInCategory: Number
-  },
-  methods: {
-    nextRadioStation() {
-      const nextRadioId = this.radioIdInCategory + 1;
-      return `/category/${this.categorySlug}/${nextRadioId}`;
-    }
   }
 };
 </script>
