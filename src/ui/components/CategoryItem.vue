@@ -3,7 +3,7 @@
     color="ambar"
     :to="{
       name: 'ChannelPage',
-      params: { category: category.slug, radioStationId: 1 }
+      params: { categorySlug: category.slug, radioIdInCategory: 0 }
     }"
   >
     {{ category.name }}
