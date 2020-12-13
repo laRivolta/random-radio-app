@@ -31,14 +31,6 @@ export default {
     CategoryList,
     RadioStation
   },
-  data() {
-    return {
-      baseUrl: process.env.BASE_URL,
-      currentRadioStation: Object,
-      currentRadioIdInCategory: parseInt(this.$route.params.radioIdInCategory),
-      currentRadioCategorySlug: this.$route.params.categorySlug
-    };
-  },
   created() {
     this.currentRadioStation = this.getRadioByCategorySlugAndRadioId(
       this.currentRadioCategorySlug,
@@ -46,14 +38,20 @@ export default {
     );
   },
   computed: {
-    ...mapGetters("categories", ["getRadioByCategorySlugAndRadioId"])
+    ...mapGetters("categories", ["getRadioByCategorySlugAndRadioId"]),
+    currentRadioIdInCategory: {
+      get() {
+        return this.$route.params.radioIdInCategory;
+      }
+    },
+    currentRadioCategorySlug: {
+      get() {
+        return this.$route.params.categorySlug;
+      }
+    }
   },
   methods: {
     goBack() {
-      /*var player = document.getElementById("radio");
-      player.pause();
-      player.currentTime = 0;
-      player.src = "";*/
       this.$router.push("/");
     }
   }

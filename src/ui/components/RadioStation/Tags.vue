@@ -14,10 +14,12 @@ export default {
   props: {
     rawTags: String
   },
-  data() {
-    return {
-      splittedTags: this.rawTags.split(",")
-    };
+  computed: {
+    splittedTags: {
+      get() {
+        return this.rawTags.split(",");
+      }
+    }
   }
 };
 </script>

@@ -16,10 +16,12 @@ export default {
     categorySlug: String,
     radioIdInCategory: Number
   },
-  data() {
-    return {
-      nextRadioStation: `/category/${this.categorySlug}/${this.radioIdInCategory + 1}`
-    };
+  computed: {
+    nextRadioStation: {
+      get() {
+        return `/category/${this.categorySlug}/${this.radioIdInCategory + 1}`;
+      }
+    }
   }
 };
 </script>

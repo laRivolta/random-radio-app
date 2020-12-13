@@ -1,7 +1,7 @@
 <template>
   <v-col :cols="8">
     <audio id="radio" tabindex="0" controls class="hidden" preload="none">
-      <source :src="radioLink()" />
+      <source :src="radioLink" />
     </audio>
   </v-col>
 </template>
@@ -16,10 +16,14 @@ export default {
   mounted() {
     this.playRadio();
   },
+  computed: {
+    radioLink: {
+      get() {
+        return this.link1 || this.link2;
+      }
+    }
+  },
   methods: {
-    radioLink() {
-      return this.link1 || this.link2;
-    },
     playRadio() {
       var player = document.getElementById("radio");
       player.play();
