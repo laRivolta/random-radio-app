@@ -23,7 +23,7 @@
 <script>
 import { mapGetters } from "vuex";
 import CategoryList from "@/ui/components/CategoryList.vue";
-import RadioStation from "@/ui/components/RadioStation.vue";
+import RadioStation from "@/ui/components/RadioStation/RadioStation.vue";
 
 export default {
   name: "ChannelPage",
