@@ -18,11 +18,9 @@ const routes = [
   },
   {
     path: "/category/:category/:radioStationId",
-    name: "RadioStation",
+    name: "ChannelPage",
     component: () =>
-      import(
-        /* webpackChunkName: "radiostation" */ "@/ui/pages/RadioStation.vue"
-      )
+      import(/* webpackChunkName: "channelpage" */ "@/ui/pages/ChannelPage.vue")
   },
   {
     path: "/:catchAll(.*)",

@@ -2,7 +2,7 @@
   <v-btn
     color="ambar"
     :to="{
-      name: 'RadioStation',
+      name: 'ChannelPage',
       params: { category: category.slug, radioStationId: 1 }
     }"
   >

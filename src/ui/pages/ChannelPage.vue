@@ -53,7 +53,7 @@
       <v-container>
         <p>
           Estás escuchando
-          <b> {{ currentRadioStation.name || "" }}</b>
+          <b> <span v-bind="currentRadioStation.name"></span></b>
           con las siguientes etiquetas
         </p>
 
@@ -74,7 +74,7 @@ import { mapGetters } from "vuex";
 import CategoryList from "@/ui/components/CategoryList.vue";
 
 export default {
-  name: "RadioStation",
+  name: "ChannelPage",
   components: {
     CategoryList
   },
