@@ -46,7 +46,7 @@ export default {
     },
     currentRadioIdInCategory: {
       get() {
-        return this.$route.params.radioIdInCategory;
+        return parseInt(this.$route.params.radioIdInCategory);
       }
     },
     currentRadioCategorySlug: {
