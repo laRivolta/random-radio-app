@@ -16,7 +16,9 @@ export default {
   },
   computed: {
     splittedTags: {
-      get: () => this.rawTags.split(",")
+      get() {
+        return this.rawTags.split(",");
+      }
     }
   }
 };

@@ -52,13 +52,19 @@ export default {
   },
   computed: {
     tags: {
-      get: () => this.radioStation.tags
+      get() {
+        return this.radioStation.tags;
+      }
     },
     link1: {
-      get: () => this.radioStation.link1
+      get() {
+        return this.radioStation.link1;
+      }
     },
     link2: {
-      get: () => this.radioStation.link2
+      get() {
+        return this.radioStation.link2;
+      }
     }
   }
 };

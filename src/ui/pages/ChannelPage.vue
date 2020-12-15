@@ -34,18 +34,25 @@ export default {
   computed: {
     ...mapGetters("categories", ["getRadioByCategorySlugAndRadioId"]),
     currentRadioStation: {
-      get: () =>
-        this.getRadioByCategorySlugAndRadioId(
+      get() {
+        return this.getRadioByCategorySlugAndRadioId(
           this.currentRadioCategorySlug,
           this.currentRadioIdInCategory
-        ),
-      set: otherRadioStation => (this.currentRadioStation = otherRadioStation)
+        );
+      },
+      set(otherRadioStation) {
+        this.currentRadioStation = otherRadioStation;
+      }
     },
     currentRadioIdInCategory: {
-      get: () => this.$route.params.radioIdInCategory
+      get() {
+        return this.$route.params.radioIdInCategory;
+      }
     },
     currentRadioCategorySlug: {
-      get: () => this.$route.params.categorySlug
+      get() {
+        return this.$route.params.categorySlug;
+      }
     }
   },
   methods: {
