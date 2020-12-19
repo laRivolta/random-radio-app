@@ -1,12 +1,15 @@
 <template>
   <div>
     <v-container>
-      <v-row align="center" no-gutters justify-start>
-        <player :link1="link1" :link2="link2"></player>
-        <next-radio
+      <v-row class="mt-10 mb-6" align="center" no-gutters justify-start>
+        <player
+          :link1="link1"
+          :link2="link2"
+          :autoplay="true"
           :categorySlug="categorySlug"
           :radioIdInCategory="radioIdInCategory"
-        ></next-radio>
+        >
+        </player>
       </v-row>
       <v-row align="center">
         <v-col cols="12">
@@ -36,14 +39,12 @@
 <script>
 import Tags from "@/ui/components/RadioStation/Tags.vue";
 import Player from "@/ui/components/RadioStation/Player.vue";
-import NextRadio from "@/ui/components/RadioStation/NextRadio.vue";
 
 export default {
   name: "RadioStation",
   components: {
     Tags,
-    Player,
-    NextRadio
+    Player
   },
   props: {
     radioStation: Object,

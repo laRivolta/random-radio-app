@@ -1,12 +1,7 @@
 <template>
-  <v-col :cols="4">
-    <v-btn :to="nextRadioStation" color="purple" class="white--text" x-large>
-      <v-icon dark>
-        mdi-cached
-      </v-icon>
-      ¡Otra!
-    </v-btn>
-  </v-col>
+  <div class="player-button-wrapper">
+    <v-btn class="player-button" :to="nextRadioStation">¡Otra radio!</v-btn>
+  </div>
 </template>
 
 <script>
@@ -25,3 +20,14 @@ export default {
   }
 };
 </script>
+
+<style lang="scss">
+.player-button-wrapper {
+  margin: auto;
+  width: 50%;
+}
+.player-button {
+  background-color: transparent !important;
+  box-shadow: none;
+}
+</style>
